@@ -3,6 +3,7 @@
 		"splatjs:advanceAnimations",
 		"splatjs:controlPlayer",
 		"splatjs:applyMovement2d",
+		"./lib/apply-angular-velocity",
 		"splatjs:applyVelocity",
 		"splatjs:applyFriction",
 		"splatjs:constrainToPlayableArea",
@@ -12,7 +13,7 @@
 		"splatjs:clearScreen",
 		"./lib/tile-background",
 		"splatjs:viewport.moveToCamera",
-		"splatjs:drawImage",
+		"./lib/draw-rotated-image",
 		"splatjs:drawRectangles",
 		"splatjs:viewport.reset",
 		"splatjs:drawFrameRate"

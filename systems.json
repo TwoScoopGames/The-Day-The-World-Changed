@@ -14,8 +14,8 @@
 	],
 	"renderer": [
 		"splatjs:clearScreen",
-		"./lib/tile-background",
 		"splatjs:viewport.moveToCamera",
+		"./lib/tile-background",
 		"./lib/draw-rotated-image",
 		"splatjs:viewport.reset",
 		"splatjs:drawFrameRate"

@@ -60,20 +60,41 @@
  },
  {
   "id": 1,
-  "name": "num 2",
+  "name": "middle",
   "position": {
    "x": 200,
    "y": 100
   },
   "size": {
-   "width": 50,
-   "height": 50
+   "width": 54,
+   "height": 54
   },
   "rotation": {
    "x": 25,
    "y": 25,
    "angle": 0,
    "velocity": -0.001
+  },
+  "animation": {
+   "time": 0,
+   "frame": 0,
+   "loop": true,
+   "speed": 1,
+   "name": "shark-body2"
+  },
+  "image": {
+   "sourceX": 0,
+   "sourceY": 0,
+   "sourceWidth": 0,
+   "sourceHeight": 0,
+   "destinationX": -23,
+   "destinationY": -23,
+   "destinationWidth": 100,
+   "destinationHeight": 100
+  },
+  "follow": {
+   "id": 0,
+   "distance": 50
   }
  }
 ]

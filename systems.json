@@ -6,6 +6,7 @@
 		"./lib/apply-angular-velocity",
 		"splatjs:applyVelocity",
 		"splatjs:applyFriction",
+		"./lib/follow-parent",
 		"splatjs:constrainToPlayableArea",
 		"splatjs:boxCollider"
 	],

@@ -1,3 +1,4 @@
 [
+	"./lib/add-collisions",
 	"./lib/delete-old-entities"
 ]

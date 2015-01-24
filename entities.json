@@ -56,7 +56,8 @@
   "velocity": {
    "x": 0,
    "y": 0
-  }
+  },
+  "collisions": []
  },
  {
   "id": 1,
@@ -163,6 +164,7 @@
    "destinationY": -30,
    "destinationWidth": 100,
    "destinationHeight": 100
-  }
+  },
+  "collisions": []
  }
 ]

@@ -8,7 +8,9 @@
 		"splatjs:applyFriction",
 		"./lib/follow-parent",
 		"splatjs:constrainToPlayableArea",
-		"splatjs:boxCollider"
+		"splatjs:boxCollider",
+		"./lib/eat-food",
+		"./lib/delete-entities"
 	],
 	"renderer": [
 		"splatjs:clearScreen",

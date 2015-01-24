@@ -1,5 +1,6 @@
 {
 	"simulation": [
+		"./lib/advance-timers",
 		"splatjs:advanceAnimations",
 		"./lib/control-player",
 		"splatjs:applyMovement2d",
@@ -10,7 +11,6 @@
 		"splatjs:constrainToPlayableArea",
 		"splatjs:boxCollider",
 		"./lib/eat-food",
-		"./lib/delete-old-entities",
 		"./lib/delete-entities"
 	],
 	"renderer": [

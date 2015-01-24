@@ -10,6 +10,7 @@
 		"splatjs:constrainToPlayableArea",
 		"splatjs:boxCollider",
 		"./lib/eat-food",
+		"./lib/delete-old-entities",
 		"./lib/delete-entities"
 	],
 	"renderer": [

@@ -1,0 +1,19 @@
+{
+	"simulation": [
+		"splatjs:advanceAnimations",
+		"splatjs:controlPlayer",
+		"splatjs:applyMovement2d",
+		"splatjs:applyVelocity",
+		"splatjs:applyFriction",
+		"splatjs:constrainToPlayableArea",
+		"splatjs:boxCollider"
+	],
+	"renderer": [
+		"splatjs:clearScreen",
+		"splatjs:viewport.moveToCamera",
+		"splatjs:drawImage",
+		"splatjs:drawRectangles",
+		"splatjs:viewport.reset",
+		"splatjs:drawFrameRate"
+	]
+}

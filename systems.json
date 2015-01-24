@@ -17,7 +17,6 @@
 		"./lib/tile-background",
 		"splatjs:viewport.moveToCamera",
 		"./lib/draw-rotated-image",
-		"splatjs:drawRectangles",
 		"splatjs:viewport.reset",
 		"splatjs:drawFrameRate"
 	]

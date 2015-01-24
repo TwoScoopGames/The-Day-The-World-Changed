@@ -73,14 +73,14 @@
    "x": 25,
    "y": 25,
    "angle": 0,
-   "velocity": 0.0
+   "velocity": 0
   },
   "animation": {
    "time": 0,
    "frame": 0,
    "loop": true,
    "speed": 1,
-   "name": "shark-body2"
+   "name": "shark-end"
   },
   "image": {
    "sourceX": 0,
@@ -99,9 +99,9 @@
  },
  {
   "id": 2,
-  "name": "middle",
+  "name": "tail",
   "position": {
-   "x": 200,
+   "x": 300,
    "y": 100
   },
   "size": {
@@ -112,14 +112,14 @@
    "x": 25,
    "y": 25,
    "angle": 0,
-   "velocity": 0.0
+   "velocity": 0
   },
   "animation": {
    "time": 0,
    "frame": 0,
    "loop": true,
    "speed": 1,
-   "name": "shark-body2"
+   "name": "shark-tail"
   },
   "image": {
    "sourceX": 0,

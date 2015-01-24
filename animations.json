@@ -7,8 +7,8 @@
      "name": "floor-1",
      "sourceX": 0,
      "sourceY": 0,
-     "sourceWidth": 32,
-     "sourceHeight": 32
+     "sourceWidth": 170,
+     "sourceHeight": 170
     }
    }
   }
@@ -21,8 +21,36 @@
      "name": "floor-2",
      "sourceX": 0,
      "sourceY": 0,
-     "sourceWidth": 32,
-     "sourceHeight": 32
+     "sourceWidth": 170,
+     "sourceHeight": 170
+    }
+   }
+  }
+ ],
+ "hospital-bed": [
+  {
+   "time": 100,
+   "properties": {
+    "image": {
+     "name": "hospital-bed",
+     "sourceX": 0,
+     "sourceY": 0,
+     "sourceWidth": 339,
+     "sourceHeight": 534
+    }
+   }
+  }
+ ],
+ "iv": [
+  {
+   "time": 100,
+   "properties": {
+    "image": {
+     "name": "iv",
+     "sourceX": 0,
+     "sourceY": 0,
+     "sourceWidth": 129,
+     "sourceHeight": 167
     }
    }
   }
@@ -77,8 +105,34 @@
      "name": "shark-end",
      "sourceX": 0,
      "sourceY": 0,
-     "sourceWidth": 182,
-     "sourceHeight": 182
+     "sourceWidth": 100,
+     "sourceHeight": 100
+    }
+   }
+  }
+ ],
+ "shark-head-f2": [
+  {
+   "time": 100,
+   "properties": {
+    "image": {
+     "name": "shark-head-f2",
+     "sourceX": 0,
+     "sourceY": 0,
+     "sourceWidth": 100,
+     "sourceHeight": 100
+    }
+   }
+  },
+  {
+   "time": 100,
+   "properties": {
+    "image": {
+     "name": "shark-head-f2",
+     "sourceX": 100,
+     "sourceY": 0,
+     "sourceWidth": 100,
+     "sourceHeight": 100
     }
    }
   }
@@ -104,32 +158,6 @@
     "image": {
      "name": "shark-tail",
      "sourceX": 0,
-     "sourceY": 0,
-     "sourceWidth": 182,
-     "sourceHeight": 182
-    }
-   }
-  }
- ],
- "shark-head-f2": [
-  {
-   "time": 100,
-   "properties": {
-    "image": {
-     "name": "shark-head-f2",
-     "sourceX": 0,
-     "sourceY": 0,
-     "sourceWidth": 100,
-     "sourceHeight": 100
-    }
-   }
-  },
-  {
-   "time": 100,
-   "properties": {
-    "image": {
-     "name": "shark-head-f2",
-     "sourceX": 100,
      "sourceY": 0,
      "sourceWidth": 100,
      "sourceHeight": 100

@@ -1,7 +1,7 @@
 {
 	"simulation": [
 		"splatjs:advanceAnimations",
-		"splatjs:controlPlayer",
+		"./lib/control-player",
 		"splatjs:applyMovement2d",
 		"./lib/apply-angular-velocity",
 		"splatjs:applyVelocity",

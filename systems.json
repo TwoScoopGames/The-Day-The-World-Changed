@@ -10,6 +10,7 @@
 	],
 	"renderer": [
 		"splatjs:clearScreen",
+		"./lib/tile-background",
 		"splatjs:viewport.moveToCamera",
 		"splatjs:drawImage",
 		"splatjs:drawRectangles",

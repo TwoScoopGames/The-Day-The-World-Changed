@@ -1,1 +1,54 @@
-{"up":{"type":"button","inputs":[["keyboard","w"],["keyboard","up"]]},"down":{"type":"button","inputs":[["keyboard","s"],["keyboard","down"]]},"left":{"type":"button","inputs":[["keyboard","a"],["keyboard","left"]]},"right":{"type":"button","inputs":[["keyboard","d"],["keyboard","right"]]}}
+{
+ "up": {
+  "type": "button",
+  "inputs": [
+   [
+    "keyboard",
+    "w"
+   ],
+   [
+    "keyboard",
+    "up"
+   ]
+  ]
+ },
+ "down": {
+  "type": "button",
+  "inputs": [
+   [
+    "keyboard",
+    "s"
+   ],
+   [
+    "keyboard",
+    "down"
+   ]
+  ]
+ },
+ "left": {
+  "type": "button",
+  "inputs": [
+   [
+    "keyboard",
+    "a"
+   ],
+   [
+    "keyboard",
+    "left"
+   ]
+  ]
+ },
+ "right": {
+  "type": "button",
+  "inputs": [
+   [
+    "keyboard",
+    "d"
+   ],
+   [
+    "keyboard",
+    "right"
+   ]
+  ]
+ }
+}

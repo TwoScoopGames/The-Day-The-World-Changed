@@ -52,6 +52,10 @@
    "downMax": 1,
    "leftMax": -1,
    "rightMax": 1
+  },
+  "velocity": {
+   "x": 0,
+   "y": 0
   }
  },
  {

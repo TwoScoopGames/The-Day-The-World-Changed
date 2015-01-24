@@ -262,5 +262,19 @@
     }
    }
   }
+ ],
+ "wall": [
+  {
+   "time": 100,
+   "properties": {
+    "image": {
+     "name": "wall",
+     "sourceX": 0,
+     "sourceY": 0,
+     "sourceWidth": 74,
+     "sourceHeight": 200
+    }
+   }
+  }
  ]
 }

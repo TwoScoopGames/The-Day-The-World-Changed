@@ -135,5 +135,34 @@
    "id": 1,
    "distance": 50
   }
+ },
+ {
+  "id": 3,
+  "name": "food",
+  "position": {
+   "x": 300,
+   "y": 300
+  },
+  "size": {
+   "width": 50,
+   "height": 50
+  },
+  "animation": {
+   "time": 0,
+   "frame": 0,
+   "loop": true,
+   "speed": 1,
+   "name": "shark-body3"
+  },
+  "image": {
+   "sourceX": 0,
+   "sourceY": 0,
+   "sourceWidth": 0,
+   "sourceHeight": 0,
+   "destinationX": -25,
+   "destinationY": -30,
+   "destinationWidth": 100,
+   "destinationHeight": 100
+  }
  }
 ]

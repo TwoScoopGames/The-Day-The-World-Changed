@@ -346,5 +346,75 @@
     }
    }
   }
+ ],
+ "people-gib1": [
+  {
+   "time": 100,
+   "properties": {
+    "image": {
+     "name": "people-gib1",
+     "sourceX": 0,
+     "sourceY": 0,
+     "sourceWidth": 20,
+     "sourceHeight": 22
+    }
+   }
+  }
+ ],
+ "people-gib2": [
+  {
+   "time": 100,
+   "properties": {
+    "image": {
+     "name": "people-gib2",
+     "sourceX": 0,
+     "sourceY": 0,
+     "sourceWidth": 12,
+     "sourceHeight": 20
+    }
+   }
+  }
+ ],
+ "people-gib3": [
+  {
+   "time": 100,
+   "properties": {
+    "image": {
+     "name": "people-gib3",
+     "sourceX": 0,
+     "sourceY": 0,
+     "sourceWidth": 25,
+     "sourceHeight": 17
+    }
+   }
+  }
+ ],
+ "people-gib4": [
+  {
+   "time": 100,
+   "properties": {
+    "image": {
+     "name": "people-gib4",
+     "sourceX": 0,
+     "sourceY": 0,
+     "sourceWidth": 17,
+     "sourceHeight": 13
+    }
+   }
+  }
+ ],
+ "potted-plant": [
+  {
+   "time": 100,
+   "properties": {
+    "image": {
+     "name": "potted-plant",
+     "sourceX": 0,
+     "sourceY": 0,
+     "sourceWidth": 200,
+     "sourceHeight": 189
+    }
+   }
+  }
  ]
 }

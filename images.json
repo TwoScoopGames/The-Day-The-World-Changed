@@ -1,4 +1,5 @@
 {
+ "ekg": "images/ekg.png",
  "floor-1": "images/floor-1.png",
  "floor-2": "images/floor-2.png",
  "hospital-bed": "images/hospital-bed.png",
@@ -17,5 +18,9 @@
  "shark-head-f2": "images/shark-head-f2.png",
  "shark-head": "images/shark-head.png",
  "shark-tail": "images/shark-tail.png",
+ "wall-gib1": "images/wall-gib1.png",
+ "wall-gib2": "images/wall-gib2.png",
+ "wall-gib3": "images/wall-gib3.png",
+ "wall-gib4": "images/wall-gib4.png",
  "wall": "images/wall.png"
 }

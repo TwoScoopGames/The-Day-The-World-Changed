@@ -276,5 +276,75 @@
     }
    }
   }
+ ],
+ "ekg": [
+  {
+   "time": 100,
+   "properties": {
+    "image": {
+     "name": "ekg",
+     "sourceX": 0,
+     "sourceY": 0,
+     "sourceWidth": 100,
+     "sourceHeight": 159
+    }
+   }
+  }
+ ],
+ "wall-gib1": [
+  {
+   "time": 100,
+   "properties": {
+    "image": {
+     "name": "wall-gib1",
+     "sourceX": 0,
+     "sourceY": 0,
+     "sourceWidth": 39,
+     "sourceHeight": 39
+    }
+   }
+  }
+ ],
+ "wall-gib2": [
+  {
+   "time": 100,
+   "properties": {
+    "image": {
+     "name": "wall-gib2",
+     "sourceX": 0,
+     "sourceY": 0,
+     "sourceWidth": 21,
+     "sourceHeight": 20
+    }
+   }
+  }
+ ],
+ "wall-gib3": [
+  {
+   "time": 100,
+   "properties": {
+    "image": {
+     "name": "wall-gib3",
+     "sourceX": 0,
+     "sourceY": 0,
+     "sourceWidth": 39,
+     "sourceHeight": 29
+    }
+   }
+  }
+ ],
+ "wall-gib4": [
+  {
+   "time": 100,
+   "properties": {
+    "image": {
+     "name": "wall-gib4",
+     "sourceX": 0,
+     "sourceY": 0,
+     "sourceWidth": 27,
+     "sourceHeight": 21
+    }
+   }
+  }
  ]
 }

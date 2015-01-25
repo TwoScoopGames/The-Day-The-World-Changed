@@ -168,7 +168,7 @@
   },
   "collisions": [],
   "gibs": [ "wall-gib1",  "wall-gib2",  "wall-gib3", "wall-gib4" ],
-  "sounds": [ "wall-eat1", "wall-eat2", "wall-eat3", "wall-eat4" ]
+  "sounds": [ "ekg-chomp" ]
  },
  "iv": {
   "name": "iv",
@@ -199,7 +199,7 @@
   },
   "collisions": [],
   "gibs": [ "wall-gib1",  "wall-gib2",  "wall-gib3", "wall-gib4" ],
-  "sounds": [ "wall-eat1", "wall-eat2", "wall-eat3", "wall-eat4" ]
+  "sounds": [ "iv-chomp" ]
  },
  "potted plant": {
   "name": "potted plant",

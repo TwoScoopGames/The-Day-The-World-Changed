@@ -1380,5 +1380,19 @@
     }
    }
   }
+ ],
+ "go": [
+  {
+   "time": 100,
+   "properties": {
+    "image": {
+     "name": "go",
+     "sourceX": 0,
+     "sourceY": 0,
+     "sourceWidth": 382,
+     "sourceHeight": 204
+    }
+   }
+  }
  ]
 }

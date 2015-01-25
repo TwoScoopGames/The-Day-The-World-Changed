@@ -1,6 +1,7 @@
 {
 	"simulation": [
 		"./lib/advance-timers",
+		"./lib/fade-in-text",
 		"splatjs:advanceAnimations",
 		"./lib/control-player",
 		"splatjs:applyMovement2d",
@@ -19,6 +20,7 @@
 		"splatjs:viewport.moveToCamera",
 		"./lib/tile-background",
 		"./lib/draw-rotated-image",
+		"./lib/draw-text",
 		"splatjs:viewport.reset",
 		"splatjs:drawFrameRate"
 	]

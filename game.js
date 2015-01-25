@@ -53,30 +53,72 @@ function makeScene(name) {
 	return scene;
 }
 
+function fullScreenImage(scene, name) {
+	var img = scene.entities.add();
+	img.position = {
+		x: 0,
+		y: 0
+	};
+	img.image = {
+		name: name,
+		sourceX: 0,
+		sourceY: 0,
+		sourceWidth: 1136,
+		sourceHeight: 640,
+		destinationX: 0,
+		destinationY: 0,
+		destinationWidth: 1136,
+		destinationHeight: 640
+	};
+	return img;
+}
+
 var title = makeScene("title");
 title.renderer.add(function(entities, context) { // jshint ignore:line
 	if (input.button("left") || input.button("right")) {
-		title.stop();
-		main.start(context);
+		scenes.title.stop();
+		scenes.intro1.start(context);
 	}
 });
+fullScreenImage(title, "titlescreen");
 
-var img = title.entities.add();
-img.position = {
-	x: 0,
-	y: 0
+var intro1 = makeScene("intro1");
+fullScreenImage(intro1, "intro-1");
+
+var words = intro1.entities.add();
+words.position = {
+	x: 500,
+	y: 200
 };
-img.image = {
-	name: "titlescreen",
-	sourceX: 0,
-	sourceY: 0,
-	sourceWidth: 1136,
-	sourceHeight: 640,
-	destinationX: 0,
-	destinationY: 0,
-	destinationWidth: 1136,
-	destinationHeight: 640
+words.timers = {
+	showText: {
+		running: true,
+		time: 0,
+		max: 1000,
+		script: "./lib/add-text-1"
+	}
 };
+words.seq = 0;
+
+intro1.renderer.add(function(entities, context) { // jshint ignore:line
+	var isPressed  = input.button("left") || input.button("right");
+	if (words.lastPressed === false && isPressed) {
+		words.text.a = 0;
+		if (words.seq === 0) {
+			words.text.text = "I'm pregnant.";
+		} else if (words.seq === 1) {
+			words.text.text = "What do we do now?";
+			words.position.x = 200;
+			words.position.y = 410;
+		} else if (words.seq === 2) {
+			intro1.stop();
+			main.start(context);
+		}
+		words.seq++;
+	}
+	words.lastPressed = isPressed;
+});
+
 
 function percentLoaded() {
 	return (images.loadedImages + sounds.loadedSounds) / (images.totalImages + sounds.totalSounds);

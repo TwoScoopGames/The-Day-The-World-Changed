@@ -1,5 +1,6 @@
 [
  "./lib/add-collisions",
+ "./lib/add-text-1",
  "./lib/delete-old-entities",
  "./lib/delete-shake"
 ]

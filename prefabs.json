@@ -232,6 +232,37 @@
   "gibs": [ "wall-gib1",  "wall-gib2",  "wall-gib3", "wall-gib4" ],
   "sounds": [ "wall-eat1", "wall-eat2", "wall-eat3", "wall-eat4" ]
  },
+ "breathing machine": {
+  "name": "breathing machine",
+  "position": {
+   "x": 0,
+   "y": 0
+  },
+  "size": {
+   "width": 64,
+   "height": 50
+  },
+  "animation": {
+   "time": 0,
+   "frame": 0,
+   "loop": true,
+   "speed": 1,
+   "name": "breathing-machine"
+  },
+  "image": {
+   "sourceX": 0,
+   "sourceY": 0,
+   "sourceWidth": 0,
+   "sourceHeight": 0,
+   "destinationX": 0,
+   "destinationY": -137,
+   "destinationWidth": 65,
+   "destinationHeight": 188
+  },
+  "collisions": [],
+  "gibs": [ "wall-gib1",  "wall-gib2",  "wall-gib3", "wall-gib4" ],
+  "sounds": [ "wall-eat1", "wall-eat2", "wall-eat3", "wall-eat4" ]
+ },
  "wall": {
   "position": {
    "x": 0,

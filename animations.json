@@ -851,12 +851,12 @@
    }
   }
  ],
- "people-gib-6": [
+ "people-gib6": [
   {
    "time": 100,
    "properties": {
     "image": {
-     "name": "people-gib-6",
+     "name": "people-gib6",
      "sourceX": 0,
      "sourceY": 0,
      "sourceWidth": 76,

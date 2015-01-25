@@ -752,5 +752,117 @@
     }
    }
   }
+ ],
+ "breathing-machine": [
+  {
+   "time": 100,
+   "properties": {
+    "image": {
+     "name": "breathing-machine",
+     "sourceX": 0,
+     "sourceY": 0,
+     "sourceWidth": 65,
+     "sourceHeight": 188
+    }
+   }
+  }
+ ],
+ "doctor-gib1": [
+  {
+   "time": 100,
+   "properties": {
+    "image": {
+     "name": "doctor-gib1",
+     "sourceX": 0,
+     "sourceY": 0,
+     "sourceWidth": 64,
+     "sourceHeight": 119
+    }
+   }
+  }
+ ],
+ "doctor-gib2": [
+  {
+   "time": 100,
+   "properties": {
+    "image": {
+     "name": "doctor-gib2",
+     "sourceX": 0,
+     "sourceY": 0,
+     "sourceWidth": 63,
+     "sourceHeight": 117
+    }
+   }
+  }
+ ],
+ "doctor-gib3": [
+  {
+   "time": 100,
+   "properties": {
+    "image": {
+     "name": "doctor-gib3",
+     "sourceX": 0,
+     "sourceY": 0,
+     "sourceWidth": 43,
+     "sourceHeight": 90
+    }
+   }
+  }
+ ],
+ "doctor-gib4": [
+  {
+   "time": 100,
+   "properties": {
+    "image": {
+     "name": "doctor-gib4",
+     "sourceX": 0,
+     "sourceY": 0,
+     "sourceWidth": 74,
+     "sourceHeight": 137
+    }
+   }
+  }
+ ],
+ "doctor-gib5": [
+  {
+   "time": 100,
+   "properties": {
+    "image": {
+     "name": "doctor-gib5",
+     "sourceX": 0,
+     "sourceY": 0,
+     "sourceWidth": 50,
+     "sourceHeight": 46
+    }
+   }
+  }
+ ],
+ "doctor": [
+  {
+   "time": 100,
+   "properties": {
+    "image": {
+     "name": "doctor",
+     "sourceX": 0,
+     "sourceY": 0,
+     "sourceWidth": 133,
+     "sourceHeight": 200
+    }
+   }
+  }
+ ],
+ "people-gib-6": [
+  {
+   "time": 100,
+   "properties": {
+    "image": {
+     "name": "people-gib-6",
+     "sourceX": 0,
+     "sourceY": 0,
+     "sourceWidth": 76,
+     "sourceHeight": 78
+    }
+   }
+  }
  ]
 }

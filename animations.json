@@ -851,6 +851,20 @@
    }
   }
  ],
+ "people-gib5": [
+  {
+   "time": 100,
+   "properties": {
+    "image": {
+     "name": "people-gib5",
+     "sourceX": 0,
+     "sourceY": 0,
+     "sourceWidth": 22,
+     "sourceHeight": 30
+    }
+   }
+  }
+ ],
  "people-gib6": [
   {
    "time": 100,
@@ -859,8 +873,8 @@
      "name": "people-gib6",
      "sourceX": 0,
      "sourceY": 0,
-     "sourceWidth": 76,
-     "sourceHeight": 78
+     "sourceWidth": 25,
+     "sourceHeight": 26
     }
    }
   }
@@ -873,8 +887,8 @@
      "name": "shark-head-f10",
      "sourceX": 0,
      "sourceY": 0,
-     "sourceWidth": 130,
-     "sourceHeight": 99
+     "sourceWidth": 100,
+     "sourceHeight": 76
     }
    }
   },
@@ -883,10 +897,10 @@
    "properties": {
     "image": {
      "name": "shark-head-f10",
-     "sourceX": 130,
+     "sourceX": 100,
      "sourceY": 0,
-     "sourceWidth": 130,
-     "sourceHeight": 99
+     "sourceWidth": 100,
+     "sourceHeight": 76
     }
    }
   },
@@ -895,10 +909,10 @@
    "properties": {
     "image": {
      "name": "shark-head-f10",
-     "sourceX": 260,
+     "sourceX": 200,
      "sourceY": 0,
-     "sourceWidth": 130,
-     "sourceHeight": 99
+     "sourceWidth": 100,
+     "sourceHeight": 76
     }
    }
   },
@@ -907,10 +921,10 @@
    "properties": {
     "image": {
      "name": "shark-head-f10",
-     "sourceX": 390,
+     "sourceX": 300,
      "sourceY": 0,
-     "sourceWidth": 130,
-     "sourceHeight": 99
+     "sourceWidth": 100,
+     "sourceHeight": 76
     }
    }
   },
@@ -919,10 +933,10 @@
    "properties": {
     "image": {
      "name": "shark-head-f10",
-     "sourceX": 520,
+     "sourceX": 400,
      "sourceY": 0,
-     "sourceWidth": 130,
-     "sourceHeight": 99
+     "sourceWidth": 100,
+     "sourceHeight": 76
     }
    }
   },
@@ -931,10 +945,10 @@
    "properties": {
     "image": {
      "name": "shark-head-f10",
-     "sourceX": 650,
+     "sourceX": 500,
      "sourceY": 0,
-     "sourceWidth": 130,
-     "sourceHeight": 99
+     "sourceWidth": 100,
+     "sourceHeight": 76
     }
    }
   },
@@ -943,10 +957,10 @@
    "properties": {
     "image": {
      "name": "shark-head-f10",
-     "sourceX": 780,
+     "sourceX": 600,
      "sourceY": 0,
-     "sourceWidth": 130,
-     "sourceHeight": 99
+     "sourceWidth": 100,
+     "sourceHeight": 76
     }
    }
   },
@@ -955,10 +969,10 @@
    "properties": {
     "image": {
      "name": "shark-head-f10",
-     "sourceX": 910,
+     "sourceX": 700,
      "sourceY": 0,
-     "sourceWidth": 130,
-     "sourceHeight": 99
+     "sourceWidth": 100,
+     "sourceHeight": 76
     }
    }
   },
@@ -967,10 +981,10 @@
    "properties": {
     "image": {
      "name": "shark-head-f10",
-     "sourceX": 1040,
+     "sourceX": 800,
      "sourceY": 0,
-     "sourceWidth": 130,
-     "sourceHeight": 99
+     "sourceWidth": 100,
+     "sourceHeight": 76
     }
    }
   },
@@ -979,24 +993,10 @@
    "properties": {
     "image": {
      "name": "shark-head-f10",
-     "sourceX": 1170,
+     "sourceX": 900,
      "sourceY": 0,
-     "sourceWidth": 130,
-     "sourceHeight": 99
-    }
-   }
-  }
- ],
- "people-gib5": [
-  {
-   "time": 100,
-   "properties": {
-    "image": {
-     "name": "people-gib5",
-     "sourceX": 0,
-     "sourceY": 0,
-     "sourceWidth": 58,
-     "sourceHeight": 79
+     "sourceWidth": 100,
+     "sourceHeight": 76
     }
    }
   }

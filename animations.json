@@ -864,5 +864,127 @@
     }
    }
   }
+ ],
+ "shark-head-f10": [
+  {
+   "time": 100,
+   "properties": {
+    "image": {
+     "name": "shark-head-f10",
+     "sourceX": 0,
+     "sourceY": 0,
+     "sourceWidth": 130,
+     "sourceHeight": 99
+    }
+   }
+  },
+  {
+   "time": 100,
+   "properties": {
+    "image": {
+     "name": "shark-head-f10",
+     "sourceX": 130,
+     "sourceY": 0,
+     "sourceWidth": 130,
+     "sourceHeight": 99
+    }
+   }
+  },
+  {
+   "time": 100,
+   "properties": {
+    "image": {
+     "name": "shark-head-f10",
+     "sourceX": 260,
+     "sourceY": 0,
+     "sourceWidth": 130,
+     "sourceHeight": 99
+    }
+   }
+  },
+  {
+   "time": 100,
+   "properties": {
+    "image": {
+     "name": "shark-head-f10",
+     "sourceX": 390,
+     "sourceY": 0,
+     "sourceWidth": 130,
+     "sourceHeight": 99
+    }
+   }
+  },
+  {
+   "time": 100,
+   "properties": {
+    "image": {
+     "name": "shark-head-f10",
+     "sourceX": 520,
+     "sourceY": 0,
+     "sourceWidth": 130,
+     "sourceHeight": 99
+    }
+   }
+  },
+  {
+   "time": 100,
+   "properties": {
+    "image": {
+     "name": "shark-head-f10",
+     "sourceX": 650,
+     "sourceY": 0,
+     "sourceWidth": 130,
+     "sourceHeight": 99
+    }
+   }
+  },
+  {
+   "time": 100,
+   "properties": {
+    "image": {
+     "name": "shark-head-f10",
+     "sourceX": 780,
+     "sourceY": 0,
+     "sourceWidth": 130,
+     "sourceHeight": 99
+    }
+   }
+  },
+  {
+   "time": 100,
+   "properties": {
+    "image": {
+     "name": "shark-head-f10",
+     "sourceX": 910,
+     "sourceY": 0,
+     "sourceWidth": 130,
+     "sourceHeight": 99
+    }
+   }
+  },
+  {
+   "time": 100,
+   "properties": {
+    "image": {
+     "name": "shark-head-f10",
+     "sourceX": 1040,
+     "sourceY": 0,
+     "sourceWidth": 130,
+     "sourceHeight": 99
+    }
+   }
+  },
+  {
+   "time": 100,
+   "properties": {
+    "image": {
+     "name": "shark-head-f10",
+     "sourceX": 1170,
+     "sourceY": 0,
+     "sourceWidth": 130,
+     "sourceHeight": 99
+    }
+   }
+  }
  ]
 }

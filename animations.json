@@ -416,5 +416,341 @@
     }
    }
   }
+ ],
+ "jellybean1": [
+  {
+   "time": 100,
+   "properties": {
+    "image": {
+     "name": "jellybean1",
+     "sourceX": 0,
+     "sourceY": 0,
+     "sourceWidth": 41,
+     "sourceHeight": 27
+    }
+   }
+  }
+ ],
+ "jellybean2": [
+  {
+   "time": 100,
+   "properties": {
+    "image": {
+     "name": "jellybean2",
+     "sourceX": 0,
+     "sourceY": 0,
+     "sourceWidth": 41,
+     "sourceHeight": 27
+    }
+   }
+  }
+ ],
+ "jellybean3": [
+  {
+   "time": 100,
+   "properties": {
+    "image": {
+     "name": "jellybean3",
+     "sourceX": 0,
+     "sourceY": 0,
+     "sourceWidth": 42,
+     "sourceHeight": 27
+    }
+   }
+  }
+ ],
+ "jellybean4": [
+  {
+   "time": 100,
+   "properties": {
+    "image": {
+     "name": "jellybean4",
+     "sourceX": 0,
+     "sourceY": 0,
+     "sourceWidth": 42,
+     "sourceHeight": 27
+    }
+   }
+  }
+ ],
+ "jellybean5": [
+  {
+   "time": 100,
+   "properties": {
+    "image": {
+     "name": "jellybean5",
+     "sourceX": 0,
+     "sourceY": 0,
+     "sourceWidth": 41,
+     "sourceHeight": 27
+    }
+   }
+  }
+ ],
+ "jellybean6": [
+  {
+   "time": 100,
+   "properties": {
+    "image": {
+     "name": "jellybean6",
+     "sourceX": 0,
+     "sourceY": 0,
+     "sourceWidth": 41,
+     "sourceHeight": 27
+    }
+   }
+  }
+ ],
+ "person-b-gib1": [
+  {
+   "time": 100,
+   "properties": {
+    "image": {
+     "name": "person-b-gib1",
+     "sourceX": 0,
+     "sourceY": 0,
+     "sourceWidth": 53,
+     "sourceHeight": 100
+    }
+   }
+  }
+ ],
+ "person-b-gib2": [
+  {
+   "time": 100,
+   "properties": {
+    "image": {
+     "name": "person-b-gib2",
+     "sourceX": 0,
+     "sourceY": 0,
+     "sourceWidth": 54,
+     "sourceHeight": 100
+    }
+   }
+  }
+ ],
+ "person-b-gib3": [
+  {
+   "time": 100,
+   "properties": {
+    "image": {
+     "name": "person-b-gib3",
+     "sourceX": 0,
+     "sourceY": 0,
+     "sourceWidth": 50,
+     "sourceHeight": 45
+    }
+   }
+  }
+ ],
+ "person-b-gib4": [
+  {
+   "time": 100,
+   "properties": {
+    "image": {
+     "name": "person-b-gib4",
+     "sourceX": 0,
+     "sourceY": 0,
+     "sourceWidth": 42,
+     "sourceHeight": 89
+    }
+   }
+  }
+ ],
+ "person-b-gib5": [
+  {
+   "time": 100,
+   "properties": {
+    "image": {
+     "name": "person-b-gib5",
+     "sourceX": 0,
+     "sourceY": 0,
+     "sourceWidth": 54,
+     "sourceHeight": 100
+    }
+   }
+  }
+ ],
+ "person-b": [
+  {
+   "time": 100,
+   "properties": {
+    "image": {
+     "name": "person-b",
+     "sourceX": 0,
+     "sourceY": 0,
+     "sourceWidth": 165,
+     "sourceHeight": 247
+    }
+   }
+  }
+ ],
+ "person-c-gib1": [
+  {
+   "time": 100,
+   "properties": {
+    "image": {
+     "name": "person-c-gib1",
+     "sourceX": 0,
+     "sourceY": 0,
+     "sourceWidth": 52,
+     "sourceHeight": 98
+    }
+   }
+  }
+ ],
+ "person-c-gib2": [
+  {
+   "time": 100,
+   "properties": {
+    "image": {
+     "name": "person-c-gib2",
+     "sourceX": 0,
+     "sourceY": 0,
+     "sourceWidth": 52,
+     "sourceHeight": 97
+    }
+   }
+  }
+ ],
+ "person-c-gib3": [
+  {
+   "time": 100,
+   "properties": {
+    "image": {
+     "name": "person-c-gib3",
+     "sourceX": 0,
+     "sourceY": 0,
+     "sourceWidth": 42,
+     "sourceHeight": 38
+    }
+   }
+  }
+ ],
+ "person-c-gib4": [
+  {
+   "time": 100,
+   "properties": {
+    "image": {
+     "name": "person-c-gib4",
+     "sourceX": 0,
+     "sourceY": 0,
+     "sourceWidth": 61,
+     "sourceHeight": 114
+    }
+   }
+  }
+ ],
+ "person-c-gib5": [
+  {
+   "time": 100,
+   "properties": {
+    "image": {
+     "name": "person-c-gib5",
+     "sourceX": 0,
+     "sourceY": 0,
+     "sourceWidth": 35,
+     "sourceHeight": 74
+    }
+   }
+  }
+ ],
+ "person-c": [
+  {
+   "time": 100,
+   "properties": {
+    "image": {
+     "name": "person-c",
+     "sourceX": 0,
+     "sourceY": 0,
+     "sourceWidth": 119,
+     "sourceHeight": 200
+    }
+   }
+  }
+ ],
+ "person-d-gib1": [
+  {
+   "time": 100,
+   "properties": {
+    "image": {
+     "name": "person-d-gib1",
+     "sourceX": 0,
+     "sourceY": 0,
+     "sourceWidth": 52,
+     "sourceHeight": 98
+    }
+   }
+  }
+ ],
+ "person-d-gib2": [
+  {
+   "time": 100,
+   "properties": {
+    "image": {
+     "name": "person-d-gib2",
+     "sourceX": 0,
+     "sourceY": 0,
+     "sourceWidth": 42,
+     "sourceHeight": 38
+    }
+   }
+  }
+ ],
+ "person-d-gib3": [
+  {
+   "time": 100,
+   "properties": {
+    "image": {
+     "name": "person-d-gib3",
+     "sourceX": 0,
+     "sourceY": 0,
+     "sourceWidth": 35,
+     "sourceHeight": 74
+    }
+   }
+  }
+ ],
+ "person-d-gib4": [
+  {
+   "time": 100,
+   "properties": {
+    "image": {
+     "name": "person-d-gib4",
+     "sourceX": 0,
+     "sourceY": 0,
+     "sourceWidth": 54,
+     "sourceHeight": 100
+    }
+   }
+  }
+ ],
+ "person-d-gib5": [
+  {
+   "time": 100,
+   "properties": {
+    "image": {
+     "name": "person-d-gib5",
+     "sourceX": 0,
+     "sourceY": 0,
+     "sourceWidth": 52,
+     "sourceHeight": 97
+    }
+   }
+  }
+ ],
+ "person-d": [
+  {
+   "time": 100,
+   "properties": {
+    "image": {
+     "name": "person-d",
+     "sourceX": 0,
+     "sourceY": 0,
+     "sourceWidth": 102,
+     "sourceHeight": 190
+    }
+   }
+  }
  ]
 }

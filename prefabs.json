@@ -166,6 +166,7 @@
    "destinationWidth": 100,
    "destinationHeight": 159
   },
+  "collisions": [],
   "gibs": [ "wall-gib1",  "wall-gib2",  "wall-gib3", "wall-gib4" ],
   "sounds": [ "wall-eat1", "wall-eat2", "wall-eat3", "wall-eat4" ]
  },
@@ -196,6 +197,7 @@
    "destinationWidth": 129,
    "destinationHeight": 167
   },
+  "collisions": [],
   "gibs": [ "wall-gib1",  "wall-gib2",  "wall-gib3", "wall-gib4" ],
   "sounds": [ "wall-eat1", "wall-eat2", "wall-eat3", "wall-eat4" ]
  },
@@ -225,8 +227,9 @@
    "destinationY": -149,
    "destinationWidth": 200,
    "destinationHeight": 189
-  }
- },
+  },
+  "collisions": [],
   "gibs": [ "wall-gib1",  "wall-gib2",  "wall-gib3", "wall-gib4" ],
   "sounds": [ "wall-eat1", "wall-eat2", "wall-eat3", "wall-eat4" ]
+ }
 }

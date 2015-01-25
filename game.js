@@ -40,6 +40,7 @@ function makeScene(name) {
 	var data = {
 		animations: animations,
 		canvas: canvas,
+		context: context,
 		entities: scene.entities,
 		images: images,
 		input: input,
@@ -273,6 +274,9 @@ go.renderer.add(function(entities, context) { // jshint ignore:line
 	}
 	go.lastPressed = isPressed;
 });
+
+var end = makeScene("end");
+fullScreenImage(end, "endscreen");
 
 function percentLoaded() {
 	return (images.loadedImages + sounds.loadedSounds) / (images.totalImages + sounds.totalSounds);

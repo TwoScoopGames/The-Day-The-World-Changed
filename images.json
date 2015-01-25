@@ -1,4 +1,8 @@
 {
+ "arrows-f2": "images/arrows-f2.png",
+ "arrows-left-f2": "images/arrows-left-f2.png",
+ "arrows-right-f2": "images/arrows-right-f2.png",
+ "black-screen": "images/black-screen.png",
  "breathing-machine": "images/breathing-machine.png",
  "doctor-gib1": "images/doctor-gib1.png",
  "doctor-gib2": "images/doctor-gib2.png",
@@ -14,6 +18,7 @@
  "floor-2": "images/floor-2.png",
  "hospital-bed": "images/hospital-bed.png",
  "intro-1": "images/intro-1.png",
+ "intro-2": "images/intro-2.png",
  "iv": "images/iv.png",
  "legs": "images/legs.png",
  "people-gib1": "images/people-gib1.png",

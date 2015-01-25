@@ -1274,5 +1274,111 @@
     }
    }
   }
+ ],
+ "arrows-f2": [
+  {
+   "time": 100,
+   "properties": {
+    "image": {
+     "name": "arrows-f2",
+     "sourceX": 0,
+     "sourceY": 0,
+     "sourceWidth": 188,
+     "sourceHeight": 126
+    }
+   }
+  },
+  {
+   "time": 100,
+   "properties": {
+    "image": {
+     "name": "arrows-f2",
+     "sourceX": 188,
+     "sourceY": 0,
+     "sourceWidth": 188,
+     "sourceHeight": 126
+    }
+   }
+  }
+ ],
+ "arrows-left-f2": [
+  {
+   "time": 100,
+   "properties": {
+    "image": {
+     "name": "arrows-left-f2",
+     "sourceX": 0,
+     "sourceY": 0,
+     "sourceWidth": 188,
+     "sourceHeight": 126
+    }
+   }
+  },
+  {
+   "time": 100,
+   "properties": {
+    "image": {
+     "name": "arrows-left-f2",
+     "sourceX": 188,
+     "sourceY": 0,
+     "sourceWidth": 188,
+     "sourceHeight": 126
+    }
+   }
+  }
+ ],
+ "arrows-right-f2": [
+  {
+   "time": 100,
+   "properties": {
+    "image": {
+     "name": "arrows-right-f2",
+     "sourceX": 0,
+     "sourceY": 0,
+     "sourceWidth": 188,
+     "sourceHeight": 126
+    }
+   }
+  },
+  {
+   "time": 100,
+   "properties": {
+    "image": {
+     "name": "arrows-right-f2",
+     "sourceX": 188,
+     "sourceY": 0,
+     "sourceWidth": 188,
+     "sourceHeight": 126
+    }
+   }
+  }
+ ],
+ "intro-2": [
+  {
+   "time": 100,
+   "properties": {
+    "image": {
+     "name": "intro-2",
+     "sourceX": 0,
+     "sourceY": 0,
+     "sourceWidth": 1136,
+     "sourceHeight": 640
+    }
+   }
+  }
+ ],
+ "black-screen": [
+  {
+   "time": 100,
+   "properties": {
+    "image": {
+     "name": "black-screen",
+     "sourceX": 0,
+     "sourceY": 0,
+     "sourceWidth": 1136,
+     "sourceHeight": 640
+    }
+   }
+  }
  ]
 }

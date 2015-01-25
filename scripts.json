@@ -1,6 +1,9 @@
 [
  "./lib/add-collisions",
  "./lib/add-text-1",
+ "./lib/add-text-2",
  "./lib/delete-old-entities",
- "./lib/delete-shake"
+ "./lib/delete-shake",
+ "./lib/doctor-freak-out",
+ "./lib/doctor-stop"
 ]

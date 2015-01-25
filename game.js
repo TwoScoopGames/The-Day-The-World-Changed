@@ -12,7 +12,6 @@ var images = new Splat.ImageLoader();
 images.loadFromManifest(require("./images"));
 
 var sounds = new Splat.SoundLoader();
-console.log(sounds);
 sounds.loadFromManifest(require("./sounds"));
 
 var scenes = {};
@@ -102,7 +101,7 @@ words.seq = 0;
 
 intro1.renderer.add(function(entities, context) { // jshint ignore:line
 	var isPressed  = input.button("left") || input.button("right");
-	if (words.lastPressed === false && isPressed) {
+	if (words.lastPressed === false && isPressed && words.text !== undefined) {
 		words.text.a = 0;
 		if (words.seq === 0) {
 			words.text.text = "I'm pregnant.";
@@ -111,14 +110,102 @@ intro1.renderer.add(function(entities, context) { // jshint ignore:line
 			words.position.x = 200;
 			words.position.y = 410;
 		} else if (words.seq === 2) {
-			intro1.stop();
-			main.start(context);
+			scenes.intro1.stop();
+			scenes.sixMonths.start(context);
 		}
 		words.seq++;
 	}
 	words.lastPressed = isPressed;
 });
 
+var sixMonths = makeScene("sixMonths");
+fullScreenImage(sixMonths, "black-screen");
+var words2 = sixMonths.entities.add();
+words2.position = {
+	x: 300,
+	y: 300
+};
+words2.timers = {
+	showText: {
+		running: true,
+		time: 0,
+		max: 1000,
+		script: "./lib/add-text-2"
+	}
+};
+sixMonths.renderer.add(function(entities, context) { // jshint ignore:line
+	var isPressed  = input.button("left") || input.button("right");
+	if (words2.lastPressed === false && isPressed && words2.text !== undefined) {
+		scenes.sixMonths.stop();
+		scenes.intro2.start(context);
+	}
+	words2.lastPressed = isPressed;
+});
+
+
+var intro2 = makeScene("intro2");
+fullScreenImage(intro2, "intro-2");
+
+var legs = intro2.entities.add();
+legs.position = {
+	x: 98,
+	y: 214
+};
+legs.image = {
+	name: "legs",
+	sourceX: 0,
+	sourceY: 0,
+	sourceWidth: 940,
+	sourceHeight: 426,
+	destinationX: 0,
+	destinationY: 0,
+	destinationWidth: 940,
+	destinationHeight: 426
+};
+
+var doctor = intro2.entities.add();
+doctor.position = {
+	x: 357,
+	y: 0
+};
+doctor.velocity = {
+	x: 0,
+	y: 0.05
+};
+doctor.image = {
+	name: "doctor-intro1",
+	sourceX: 0,
+	sourceY: 0,
+	sourceWidth: 446,
+	sourceHeight: 640,
+	destinationX: 0,
+	destinationY: 0,
+	destinationWidth: 446,
+	destinationHeight: 640
+};
+doctor.timers = {
+	doctor: {
+		running: true,
+		time: 0,
+		max: 3000,
+		script: "./lib/doctor-freak-out"
+	},
+	stop: {
+		running: true,
+		time: 0,
+		max: 6000,
+		script: "./lib/doctor-stop"
+	}
+};
+
+intro2.renderer.add(function(entities, context) { // jshint ignore:line
+	var isPressed  = input.button("left") || input.button("right");
+	if (intro2.lastPressed === false && isPressed) {
+		scenes.intro2.stop();
+		scenes.main.start(context);
+	}
+	intro2.lastPressed = isPressed;
+});
 
 function percentLoaded() {
 	return (images.loadedImages + sounds.loadedSounds) / (images.totalImages + sounds.totalSounds);

@@ -72,6 +72,33 @@ function fullScreenImage(scene, name) {
 	return img;
 }
 
+function arrows(scene) {
+	var img = scene.entities.add();
+	img.position = {
+		x: 929,
+		y: 498
+	};
+	img.image = {
+		name: name,
+		sourceX: 0,
+		sourceY: 0,
+		sourceWidth: 186,
+		sourceHeight: 126,
+		destinationX: 0,
+		destinationY: 0,
+		destinationWidth: 186,
+		destinationHeight: 126
+	};
+	img.animation = {
+		"time": 0,
+		"frame": 0,
+		"loop": true,
+		"speed": 0.3,
+		"name": "arrows-right-f2"
+	};
+	return img;
+}
+
 var title = makeScene("title");
 title.renderer.add(function(entities, context) { // jshint ignore:line
 	if (input.button("left") || input.button("right")) {
@@ -80,9 +107,11 @@ title.renderer.add(function(entities, context) { // jshint ignore:line
 	}
 });
 fullScreenImage(title, "titlescreen");
+arrows(title);
 
 var intro1 = makeScene("intro1");
 fullScreenImage(intro1, "intro-1");
+arrows(intro1);
 
 var words = intro1.entities.add();
 words.position = {
@@ -120,6 +149,7 @@ intro1.renderer.add(function(entities, context) { // jshint ignore:line
 
 var sixMonths = makeScene("sixMonths");
 fullScreenImage(sixMonths, "black-screen");
+arrows(sixMonths);
 var words2 = sixMonths.entities.add();
 words2.position = {
 	x: 300,
@@ -145,6 +175,7 @@ sixMonths.renderer.add(function(entities, context) { // jshint ignore:line
 
 var intro2 = makeScene("intro2");
 fullScreenImage(intro2, "intro-2");
+arrows(intro2);
 
 var legs = intro2.entities.add();
 legs.position = {

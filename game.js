@@ -16,12 +16,17 @@ var input = new Splat.Input(require("./inputs"));
 var images = new Splat.ImageLoader();
 images.loadFromManifest(require("./images"));
 
+var sounds = new Splat.SoundLoader();
+console.log(sounds);
+sounds.loadFromManifest(require("./sounds"));
+
 var data = {
 	animations: animations,
 	canvas: canvas,
 	entities: main.entities,
 	images: images,
-	input: input
+	input: input,
+	sounds: sounds
 };
 
 function installSystems(systems, ecs) {
@@ -43,7 +48,7 @@ installSystems(systems.simulation, main.simulation);
 installSystems(systems.renderer, main.renderer);
 
 function percentLoaded() {
-	return images.loadedImages / images.totalImages;
+	return (images.loadedImages + sounds.loadedSounds) / (images.totalImages + sounds.totalSounds);
 }
 var loading = Splat.loadingScene(canvas, percentLoaded, main);
 loading.start(context);

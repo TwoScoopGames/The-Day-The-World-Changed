@@ -986,5 +986,19 @@
     }
    }
   }
+ ],
+ "people-gib5": [
+  {
+   "time": 100,
+   "properties": {
+    "image": {
+     "name": "people-gib5",
+     "sourceX": 0,
+     "sourceY": 0,
+     "sourceWidth": 58,
+     "sourceHeight": 79
+    }
+   }
+  }
  ]
 }

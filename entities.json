@@ -96,7 +96,10 @@
   "follow": {
    "id": 0,
    "distance": 50
-  }
+  },
+  "gibs": [
+   "people-gib1", "people-gib2", "people-gib3", "people-gib4", "people-gib5", "people-gib6"
+  ]
  },
  {
   "id": 2,
@@ -132,10 +135,14 @@
    "destinationWidth": 100,
    "destinationHeight": 100
   },
+  "collisions": [],
   "follow": {
    "id": 1,
    "distance": 50
-  }
+  },
+  "gibs": [
+   "people-gib1", "people-gib2", "people-gib3", "people-gib4", "people-gib5", "people-gib6"
+  ]
  },
  {
   "id": 4,

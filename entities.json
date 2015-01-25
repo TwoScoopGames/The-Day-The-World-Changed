@@ -31,7 +31,7 @@
    "destinationX": -23,
    "destinationY": -18,
    "destinationWidth": 100,
-   "destinationHeight": 76
+   "destinationHeight": 96
   },
   "playerController2d": {
    "up": "up",
@@ -128,7 +128,7 @@
    "frame": 0,
    "loop": true,
    "speed": 1,
-   "name": "shark-tail"
+   "name": "shark-tail-f9"
   },
   "image": {
    "sourceX": 0,

@@ -171,6 +171,7 @@ sixMonths.renderer.add(function(entities, context) { // jshint ignore:line
 	var isPressed  = input.button("left") || input.button("right");
 	if (words2.lastPressed === false && isPressed && words2.text !== undefined) {
 		scenes.sixMonths.stop();
+		sounds.play("shark-birth", true);
 		scenes.intro2.start(context);
 	}
 	words2.lastPressed = isPressed;
@@ -237,6 +238,7 @@ intro2.renderer.add(function(entities, context) { // jshint ignore:line
 	var isPressed  = input.button("left") || input.button("right");
 	if (intro2.lastPressed === false && isPressed) {
 		scenes.intro2.stop();
+		sounds.stop("shark-birth");
 		sounds.stop("hospital-sounds");
 		sounds.play("go");
 		scenes.go.start(context);

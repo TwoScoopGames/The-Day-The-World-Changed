@@ -739,20 +739,6 @@
    }
   }
  ],
- "hospital-bed": [
-  {
-   "time": 100,
-   "properties": {
-    "image": {
-     "name": "hospital-bed",
-     "sourceX": 0,
-     "sourceY": 0,
-     "sourceWidth": 308,
-     "sourceHeight": 534
-    }
-   }
-  }
- ],
  "breathing-machine": [
   {
    "time": 100,
@@ -997,6 +983,20 @@
      "sourceY": 0,
      "sourceWidth": 100,
      "sourceHeight": 76
+    }
+   }
+  }
+ ],
+ "hospital-bed": [
+  {
+   "time": 100,
+   "properties": {
+    "image": {
+     "name": "hospital-bed",
+     "sourceX": 0,
+     "sourceY": 0,
+     "sourceWidth": 173,
+     "sourceHeight": 300
     }
    }
   }

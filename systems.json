@@ -8,6 +8,7 @@
 		"splatjs:applyVelocity",
 		"splatjs:applyFriction",
 		"./lib/follow-parent",
+		"./lib/shake-screen",
 		"splatjs:constrainToPlayableArea",
 		"splatjs:boxCollider",
 		"./lib/eat-food",

@@ -104,6 +104,7 @@ var title = makeScene("title");
 title.renderer.add(function(entities, context) { // jshint ignore:line
 	if (input.button("left") || input.button("right")) {
 		scenes.title.stop();
+		sounds.play("crickets", true);
 		scenes.intro1.start(context);
 	}
 });
@@ -141,6 +142,7 @@ intro1.renderer.add(function(entities, context) { // jshint ignore:line
 			words.position.y = 410;
 		} else if (words.seq === 2) {
 			scenes.intro1.stop();
+			sounds.stop("crickets");
 			scenes.sixMonths.start(context);
 		}
 		words.seq++;
@@ -234,6 +236,7 @@ intro2.renderer.add(function(entities, context) { // jshint ignore:line
 	var isPressed  = input.button("left") || input.button("right");
 	if (intro2.lastPressed === false && isPressed) {
 		scenes.intro2.stop();
+		sounds.play("go");
 		scenes.go.start(context);
 	}
 	intro2.lastPressed = isPressed;
@@ -270,6 +273,7 @@ go.renderer.add(function(entities, context) { // jshint ignore:line
 	var isPressed  = input.button("left") || input.button("right");
 	if (go.lastPressed === false && isPressed) {
 		scenes.go.stop();
+		sounds.play("Wake_-_67_-_Duckbag", true);
 		scenes.main.start(context);
 	}
 	go.lastPressed = isPressed;

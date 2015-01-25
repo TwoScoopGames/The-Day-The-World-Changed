@@ -21,7 +21,6 @@
 		"./lib/tile-background",
 		"./lib/draw-rotated-image",
 		"./lib/draw-text",
-		"splatjs:viewport.reset",
-		"splatjs:drawFrameRate"
+		"splatjs:viewport.reset"
 	]
 }

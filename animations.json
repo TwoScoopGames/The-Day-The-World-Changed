@@ -97,46 +97,6 @@
    }
   }
  ],
- "shark-head-f2": [
-  {
-   "time": 100,
-   "properties": {
-    "image": {
-     "name": "shark-head-f2",
-     "sourceX": 0,
-     "sourceY": 0,
-     "sourceWidth": 100,
-     "sourceHeight": 100
-    }
-   }
-  },
-  {
-   "time": 100,
-   "properties": {
-    "image": {
-     "name": "shark-head-f2",
-     "sourceX": 100,
-     "sourceY": 0,
-     "sourceWidth": 100,
-     "sourceHeight": 100
-    }
-   }
-  }
- ],
- "shark-head": [
-  {
-   "time": 100,
-   "properties": {
-    "image": {
-     "name": "shark-head",
-     "sourceX": 0,
-     "sourceY": 0,
-     "sourceWidth": 100,
-     "sourceHeight": 100
-    }
-   }
-  }
- ],
  "shark-tail": [
   {
    "time": 100,
@@ -865,128 +825,6 @@
    }
   }
  ],
- "shark-head-f10": [
-  {
-   "time": 100,
-   "properties": {
-    "image": {
-     "name": "shark-head-f10",
-     "sourceX": 0,
-     "sourceY": 0,
-     "sourceWidth": 100,
-     "sourceHeight": 76
-    }
-   }
-  },
-  {
-   "time": 100,
-   "properties": {
-    "image": {
-     "name": "shark-head-f10",
-     "sourceX": 100,
-     "sourceY": 0,
-     "sourceWidth": 100,
-     "sourceHeight": 76
-    }
-   }
-  },
-  {
-   "time": 100,
-   "properties": {
-    "image": {
-     "name": "shark-head-f10",
-     "sourceX": 200,
-     "sourceY": 0,
-     "sourceWidth": 100,
-     "sourceHeight": 76
-    }
-   }
-  },
-  {
-   "time": 100,
-   "properties": {
-    "image": {
-     "name": "shark-head-f10",
-     "sourceX": 300,
-     "sourceY": 0,
-     "sourceWidth": 100,
-     "sourceHeight": 76
-    }
-   }
-  },
-  {
-   "time": 100,
-   "properties": {
-    "image": {
-     "name": "shark-head-f10",
-     "sourceX": 400,
-     "sourceY": 0,
-     "sourceWidth": 100,
-     "sourceHeight": 76
-    }
-   }
-  },
-  {
-   "time": 100,
-   "properties": {
-    "image": {
-     "name": "shark-head-f10",
-     "sourceX": 500,
-     "sourceY": 0,
-     "sourceWidth": 100,
-     "sourceHeight": 76
-    }
-   }
-  },
-  {
-   "time": 100,
-   "properties": {
-    "image": {
-     "name": "shark-head-f10",
-     "sourceX": 600,
-     "sourceY": 0,
-     "sourceWidth": 100,
-     "sourceHeight": 76
-    }
-   }
-  },
-  {
-   "time": 100,
-   "properties": {
-    "image": {
-     "name": "shark-head-f10",
-     "sourceX": 700,
-     "sourceY": 0,
-     "sourceWidth": 100,
-     "sourceHeight": 76
-    }
-   }
-  },
-  {
-   "time": 100,
-   "properties": {
-    "image": {
-     "name": "shark-head-f10",
-     "sourceX": 800,
-     "sourceY": 0,
-     "sourceWidth": 100,
-     "sourceHeight": 76
-    }
-   }
-  },
-  {
-   "time": 100,
-   "properties": {
-    "image": {
-     "name": "shark-head-f10",
-     "sourceX": 900,
-     "sourceY": 0,
-     "sourceWidth": 100,
-     "sourceHeight": 76
-    }
-   }
-  }
- ],
  "hospital-bed": [
   {
    "time": 100,
@@ -997,6 +835,210 @@
      "sourceY": 0,
      "sourceWidth": 173,
      "sourceHeight": 300
+    }
+   }
+  }
+ ],
+ "doctor-intro1": [
+  {
+   "time": 100,
+   "properties": {
+    "image": {
+     "name": "doctor-intro1",
+     "sourceX": 0,
+     "sourceY": 0,
+     "sourceWidth": 446,
+     "sourceHeight": 640
+    }
+   }
+  }
+ ],
+ "doctor-intro2-f2": [
+  {
+   "time": 100,
+   "properties": {
+    "image": {
+     "name": "doctor-intro2-f2",
+     "sourceX": 0,
+     "sourceY": 0,
+     "sourceWidth": 645,
+     "sourceHeight": 640
+    }
+   }
+  },
+  {
+   "time": 100,
+   "properties": {
+    "image": {
+     "name": "doctor-intro2-f2",
+     "sourceX": 645,
+     "sourceY": 0,
+     "sourceWidth": 645,
+     "sourceHeight": 640
+    }
+   }
+  }
+ ],
+ "endscreen": [
+  {
+   "time": 100,
+   "properties": {
+    "image": {
+     "name": "endscreen",
+     "sourceX": 0,
+     "sourceY": 0,
+     "sourceWidth": 1136,
+     "sourceHeight": 640
+    }
+   }
+  }
+ ],
+ "legs": [
+  {
+   "time": 100,
+   "properties": {
+    "image": {
+     "name": "legs",
+     "sourceX": 0,
+     "sourceY": 0,
+     "sourceWidth": 940,
+     "sourceHeight": 426
+    }
+   }
+  }
+ ],
+ "titlescreen": [
+  {
+   "time": 100,
+   "properties": {
+    "image": {
+     "name": "titlescreen",
+     "sourceX": 0,
+     "sourceY": 0,
+     "sourceWidth": 1136,
+     "sourceHeight": 640
+    }
+   }
+  }
+ ],
+ "shark-head-f10": [
+  {
+   "time": 100,
+   "properties": {
+    "image": {
+     "name": "shark-head-f10",
+     "sourceX": 0,
+     "sourceY": 0,
+     "sourceWidth": 95,
+     "sourceHeight": 99
+    }
+   }
+  },
+  {
+   "time": 100,
+   "properties": {
+    "image": {
+     "name": "shark-head-f10",
+     "sourceX": 95,
+     "sourceY": 0,
+     "sourceWidth": 95,
+     "sourceHeight": 99
+    }
+   }
+  },
+  {
+   "time": 100,
+   "properties": {
+    "image": {
+     "name": "shark-head-f10",
+     "sourceX": 190,
+     "sourceY": 0,
+     "sourceWidth": 95,
+     "sourceHeight": 99
+    }
+   }
+  },
+  {
+   "time": 100,
+   "properties": {
+    "image": {
+     "name": "shark-head-f10",
+     "sourceX": 285,
+     "sourceY": 0,
+     "sourceWidth": 95,
+     "sourceHeight": 99
+    }
+   }
+  },
+  {
+   "time": 100,
+   "properties": {
+    "image": {
+     "name": "shark-head-f10",
+     "sourceX": 380,
+     "sourceY": 0,
+     "sourceWidth": 95,
+     "sourceHeight": 99
+    }
+   }
+  },
+  {
+   "time": 100,
+   "properties": {
+    "image": {
+     "name": "shark-head-f10",
+     "sourceX": 475,
+     "sourceY": 0,
+     "sourceWidth": 95,
+     "sourceHeight": 99
+    }
+   }
+  },
+  {
+   "time": 100,
+   "properties": {
+    "image": {
+     "name": "shark-head-f10",
+     "sourceX": 570,
+     "sourceY": 0,
+     "sourceWidth": 95,
+     "sourceHeight": 99
+    }
+   }
+  },
+  {
+   "time": 100,
+   "properties": {
+    "image": {
+     "name": "shark-head-f10",
+     "sourceX": 665,
+     "sourceY": 0,
+     "sourceWidth": 95,
+     "sourceHeight": 99
+    }
+   }
+  },
+  {
+   "time": 100,
+   "properties": {
+    "image": {
+     "name": "shark-head-f10",
+     "sourceX": 760,
+     "sourceY": 0,
+     "sourceWidth": 95,
+     "sourceHeight": 99
+    }
+   }
+  },
+  {
+   "time": 100,
+   "properties": {
+    "image": {
+     "name": "shark-head-f10",
+     "sourceX": 855,
+     "sourceY": 0,
+     "sourceWidth": 95,
+     "sourceHeight": 99
     }
    }
   }

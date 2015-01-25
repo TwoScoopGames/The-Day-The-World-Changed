@@ -21,7 +21,7 @@
    "frame": 0,
    "loop": true,
    "speed": 1,
-   "name": "shark-head-f2"
+   "name": "shark-head-f10"
   },
   "image": {
    "sourceX": 0,
@@ -31,7 +31,7 @@
    "destinationX": -23,
    "destinationY": -18,
    "destinationWidth": 100,
-   "destinationHeight": 100
+   "destinationHeight": 76
   },
   "playerController2d": {
    "up": "up",
@@ -98,7 +98,12 @@
    "distance": 50
   },
   "gibs": [
-   "people-gib1", "people-gib2", "people-gib3", "people-gib4", "people-gib5", "people-gib6"
+   "people-gib1",
+   "people-gib2",
+   "people-gib3",
+   "people-gib4",
+   "people-gib5",
+   "people-gib6"
   ]
  },
  {
@@ -141,7 +146,12 @@
    "distance": 50
   },
   "gibs": [
-   "people-gib1", "people-gib2", "people-gib3", "people-gib4", "people-gib5", "people-gib6"
+   "people-gib1",
+   "people-gib2",
+   "people-gib3",
+   "people-gib4",
+   "people-gib5",
+   "people-gib6"
   ]
  },
  {

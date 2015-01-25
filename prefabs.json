@@ -1,0 +1,232 @@
+{
+ "person-a": {
+  "regib": true,
+  "position": {
+   "x": 0,
+   "y": 0
+  },
+  "size": {
+   "width": 75,
+   "height": 81
+  },
+  "animation": {
+   "time": 0,
+   "frame": 0,
+   "loop": true,
+   "speed": 1,
+   "name": "person-a",
+  },
+  "image": {
+   "sourceX": 0,
+   "sourceY": 0,
+   "sourceWidth": 0,
+   "sourceHeight": 0,
+   "destinationX": -21,
+   "destinationY": -117,
+   "destinationWidth": 115,
+   "destinationHeight": 200
+  },
+  "collisions": [],
+  "sounds": [
+   "male-scream1", "male-scream2"
+  ],
+  "gibs": [
+   "person-a-gib1", "person-a-gib2", "person-a-gib3", "person-a-gib4", "person-a-gib5"
+  ]
+ },
+ "person-b": {
+  "regib": true,
+  "position": {
+   "x": 0,
+   "y": 0
+  },
+  "size": {
+   "width": 75,
+   "height": 81
+  },
+  "animation": {
+   "time": 0,
+   "frame": 0,
+   "loop": true,
+   "speed": 1,
+   "name": "person-b",
+  },
+  "image": {
+   "sourceX": 0,
+   "sourceY": 0,
+   "sourceWidth": 0,
+   "sourceHeight": 0,
+   "destinationX": -21,
+   "destinationY": -117,
+   "destinationWidth": 115,
+   "destinationHeight": 200
+  },
+  "collisions": [],
+  "sounds": [
+   "male-scream1", "male-scream2"
+  ],
+  "gibs": [
+   "person-b-gib1", "person-b-gib2", "person-b-gib3", "person-b-gib4", "person-b-gib5"
+  ]
+ },
+ "person-c": {
+  "regib": true,
+  "position": {
+   "x": 0,
+   "y": 0
+  },
+  "size": {
+   "width": 75,
+   "height": 81
+  },
+  "animation": {
+   "time": 0,
+   "frame": 0,
+   "loop": true,
+   "speed": 1,
+   "name": "person-c",
+  },
+  "image": {
+   "sourceX": 0,
+   "sourceY": 0,
+   "sourceWidth": 0,
+   "sourceHeight": 0,
+   "destinationX": -21,
+   "destinationY": -117,
+   "destinationWidth": 115,
+   "destinationHeight": 200
+  },
+  "collisions": [],
+  "sounds": [
+   "woman-scream1", "woman-scream2"
+  ],
+  "gibs": [
+   "person-c-gib1", "person-c-gib2", "person-c-gib3", "person-c-gib4", "person-c-gib5"
+  ]
+ },
+ "person-d": {
+  "regib": true,
+  "position": {
+   "x": 0,
+   "y": 0
+  },
+  "size": {
+   "width": 75,
+   "height": 81
+  },
+  "animation": {
+   "time": 0,
+   "frame": 0,
+   "loop": true,
+   "speed": 1,
+   "name": "person-d",
+  },
+  "image": {
+   "sourceX": 0,
+   "sourceY": 0,
+   "sourceWidth": 0,
+   "sourceHeight": 0,
+   "destinationX": -21,
+   "destinationY": -117,
+   "destinationWidth": 115,
+   "destinationHeight": 200
+  },
+  "collisions": [],
+  "sounds": [
+   "woman-scream1", "woman-scream2"
+  ],
+  "gibs": [
+   "person-d-gib1", "person-d-gib2", "person-d-gib3", "person-d-gib4", "person-d-gib5"
+  ]
+ },
+ "ekg": {
+  "name": "ekg",
+  "position": {
+   "x": 0,
+   "y": 0
+  },
+  "size": {
+   "width": 59,
+   "height": 50
+  },
+  "animation": {
+   "time": 0,
+   "frame": 0,
+   "loop": true,
+   "speed": 1,
+   "name": "ekg"
+  },
+  "image": {
+   "sourceX": 0,
+   "sourceY": 0,
+   "sourceWidth": 0,
+   "sourceHeight": 0,
+   "destinationX": -20,
+   "destinationY": -108,
+   "destinationWidth": 100,
+   "destinationHeight": 159
+  },
+  "gibs": [ "wall-gib1",  "wall-gib2",  "wall-gib3", "wall-gib4" ],
+  "sounds": [ "wall-eat1", "wall-eat2", "wall-eat3", "wall-eat4" ]
+ },
+ "iv": {
+  "name": "iv",
+  "position": {
+   "x": 0,
+   "y": 0
+  },
+  "size": {
+   "width": 68,
+   "height": 27
+  },
+  "animation": {
+   "time": 0,
+   "frame": 0,
+   "loop": true,
+   "speed": 1,
+   "name": "iv"
+  },
+  "image": {
+   "sourceX": 0,
+   "sourceY": 0,
+   "sourceWidth": 0,
+   "sourceHeight": 0,
+   "destinationX": -30,
+   "destinationY": -139,
+   "destinationWidth": 129,
+   "destinationHeight": 167
+  },
+  "gibs": [ "wall-gib1",  "wall-gib2",  "wall-gib3", "wall-gib4" ],
+  "sounds": [ "wall-eat1", "wall-eat2", "wall-eat3", "wall-eat4" ]
+ },
+ "potted plant": {
+  "name": "potted plant",
+  "position": {
+   "x": 0,
+   "y": 0
+  },
+  "size": {
+   "width": 77,
+   "height": 40
+  },
+  "animation": {
+   "time": 0,
+   "frame": 0,
+   "loop": true,
+   "speed": 1,
+   "name": "potted-plant"
+  },
+  "image": {
+   "sourceX": 0,
+   "sourceY": 0,
+   "sourceWidth": 0,
+   "sourceHeight": 0,
+   "destinationX": -67,
+   "destinationY": -149,
+   "destinationWidth": 200,
+   "destinationHeight": 189
+  }
+ },
+  "gibs": [ "wall-gib1",  "wall-gib2",  "wall-gib3", "wall-gib4" ],
+  "sounds": [ "wall-eat1", "wall-eat2", "wall-eat3", "wall-eat4" ]
+}

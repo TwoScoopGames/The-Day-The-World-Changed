@@ -143,6 +143,7 @@ intro1.renderer.add(function(entities, context) { // jshint ignore:line
 		} else if (words.seq === 2) {
 			scenes.intro1.stop();
 			sounds.stop("crickets");
+			sounds.play("hospital-sounds", true);
 			scenes.sixMonths.start(context);
 		}
 		words.seq++;
@@ -236,6 +237,7 @@ intro2.renderer.add(function(entities, context) { // jshint ignore:line
 	var isPressed  = input.button("left") || input.button("right");
 	if (intro2.lastPressed === false && isPressed) {
 		scenes.intro2.stop();
+		sounds.stop("hospital-sounds");
 		sounds.play("go");
 		scenes.go.start(context);
 	}

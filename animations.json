@@ -1283,8 +1283,8 @@
      "name": "arrows-f2",
      "sourceX": 0,
      "sourceY": 0,
-     "sourceWidth": 188,
-     "sourceHeight": 126
+     "sourceWidth": 100,
+     "sourceHeight": 67
     }
    }
   },
@@ -1295,8 +1295,8 @@
      "name": "arrows-f2",
      "sourceX": 188,
      "sourceY": 0,
-     "sourceWidth": 188,
-     "sourceHeight": 126
+     "sourceWidth": 100,
+     "sourceHeight": 67
     }
    }
   }
@@ -1309,8 +1309,8 @@
      "name": "arrows-left-f2",
      "sourceX": 0,
      "sourceY": 0,
-     "sourceWidth": 188,
-     "sourceHeight": 126
+     "sourceWidth": 100,
+     "sourceHeight": 67
     }
    }
   },
@@ -1321,8 +1321,8 @@
      "name": "arrows-left-f2",
      "sourceX": 188,
      "sourceY": 0,
-     "sourceWidth": 188,
-     "sourceHeight": 126
+     "sourceWidth": 100,
+     "sourceHeight": 67
     }
    }
   }
@@ -1335,8 +1335,8 @@
      "name": "arrows-right-f2",
      "sourceX": 0,
      "sourceY": 0,
-     "sourceWidth": 188,
-     "sourceHeight": 126
+     "sourceWidth": 100,
+     "sourceHeight": 67
     }
    }
   },
@@ -1345,10 +1345,10 @@
    "properties": {
     "image": {
      "name": "arrows-right-f2",
-     "sourceX": 188,
+     "sourceX": 100,
      "sourceY": 0,
-     "sourceWidth": 188,
-     "sourceHeight": 126
+     "sourceWidth": 100,
+     "sourceHeight": 67
     }
    }
   }

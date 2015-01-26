@@ -76,19 +76,19 @@ function fullScreenImage(scene, name) {
 function arrows(scene) {
 	var img = scene.entities.add();
 	img.position = {
-		x: 929,
-		y: 498
+		x: 1017,
+		y: 557
 	};
 	img.image = {
 		name: name,
 		sourceX: 0,
 		sourceY: 0,
-		sourceWidth: 186,
-		sourceHeight: 126,
+		sourceWidth: 100,
+		sourceHeight: 67,
 		destinationX: 0,
 		destinationY: 0,
-		destinationWidth: 186,
-		destinationHeight: 126
+		destinationWidth: 100,
+		destinationHeight: 67
 	};
 	img.animation = {
 		"time": 0,

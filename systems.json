@@ -1,6 +1,6 @@
 {
 	"simulation": [
-		"./lib/advance-timers",
+		"splatjs:advanceTimers",
 		"./lib/fade-in-text",
 		"splatjs:advanceAnimations",
 		"./lib/control-player",

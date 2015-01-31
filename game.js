@@ -17,18 +17,21 @@ sounds.loadFromManifest(require("./sounds"));
 var scenes = {};
 var systems = require("./systems");
 
+function loadScript(script) {
+	if (script.indexOf("splatjs:") === 0) {
+		var names = script.substr(8).split(".");
+
+		return names.reduce(function(obj, name) {
+			return obj[name];
+		}, Splat.systems);
+	} else {
+		return require(script);
+	}
+}
+
 function installSystems(systems, ecs, data) {
 	systems.forEach(function(system) {
-		if (system.indexOf("splatjs:") === 0) {
-			var names = system.substr(8).split(".");
-
-			var func = names.reduce(function(obj, name) {
-				return obj[name];
-			}, Splat.systems);
-			func(ecs, data);
-		} else {
-			require(system)(ecs, data);
-		}
+		loadScript(system)(ecs, data);
 	});
 }
 
@@ -44,6 +47,7 @@ function makeScene(name) {
 		entities: scene.entities,
 		images: images,
 		input: input,
+		require: loadScript,
 		scenes: scenes,
 		sounds: sounds
 	};

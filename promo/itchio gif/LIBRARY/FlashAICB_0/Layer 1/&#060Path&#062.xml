@@ -1,0 +1,33 @@
+<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="FlashAICB_0/Layer 1/&lt;Path&gt;" itemID="54cd1fc0-00000585" lastModified="1422729152">
+  <timeline>
+    <DOMTimeline name="&lt;Path&gt;">
+      <layers>
+        <DOMLayer name="Layer 1" color="#4FFF4F" current="true" isSelected="true">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMShape selected="true" isDrawingObject="true">
+                  <fills>
+                    <FillStyle index="1">
+                      <SolidColor color="#292929"/>
+                    </FillStyle>
+                  </fills>
+                  <edges>
+                    <Edge fillStyle0="1" edges="!6882 7081[6180 7317 5432 7317!5432 7317[4508 7317 3664 6960!3664 6960[2849 6615 2221 5986!2221 5986[1592 5358 1247 4542!1247 4542[890 3698 890 2774!890 2774[890 2004 1141 1283!1141 1283[1382 586 1835 0!1835 0[983 633 500 1574!500 1574
+[0 2547 0 3648!0 3648[0 4572 357 5416!357 5416[702 6232 1331 6860!1331 6860[1959 7489 2774 7834!2774 7834[3618 8191 4542 8191!4542 8191[5621 8191 6578 7710!6578 7710[7504 7245 8139 6423!8139 6423[7562 6852 6882 7081"/>
+                    <Edge cubics="!5432 7317(;2924,7317 890,5283 890,2774q5432 7317Q4508 7317q3664 6960Q2849 6615q2221 5986Q1592 5358q1247 4542Q890 3698q890 2774);"/>
+                    <Edge cubics="!890 2774(;890,1729 1243,767 1835,0q890 2774Q890 2004q1141 1283Q1382 586q1835 0);"/>
+                    <Edge cubics="!1835 0(;721,828 0,2154 0,3648q1835 0Q983 633q500 1574Q0 2547q0 3648);"/>
+                    <Edge cubics="!0 3648(;0,6157 2034,8191 4542,8191q0 3648Q0 4572q357 5416Q702 6232q1331 6860Q1959 7489q2774 7834Q3618 8191q4542 8191);"/>
+                    <Edge cubics="!4542 8191(;6006,8191 7309,7498 8139,6423q4542 8191Q5621 8191q6578 7710Q7504 7245q8139 6423);"/>
+                    <Edge cubics="!8139 6423(;7383,6985 6446,7317 5432,7317q8139 6423Q7562 6852q6882 7081Q6180 7317q5432 7317);"/>
+                  </edges>
+                </DOMShape>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+      </layers>
+    </DOMTimeline>
+  </timeline>
+</DOMSymbolItem>

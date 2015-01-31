@@ -1,0 +1,50 @@
+<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="FlashAICB/Layer 9/&lt;Group&gt;_16" itemID="54cd1da8-000004db" lastModified="1422728616" lastUniqueIdentifier="3">
+  <timeline>
+    <DOMTimeline name="&lt;Group&gt;_16">
+      <layers>
+        <DOMLayer name="Layer 1" color="#4FFF4F" current="true" isSelected="true">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMGroup selected="true">
+                  <members>
+                    <DOMSymbolInstance libraryItemName="FlashAICB/Layer 9/&lt;Path&gt;_2_21" selected="true" blendMode="layer">
+                      <matrix>
+                        <Matrix tx="0.3" ty="0.2"/>
+                      </matrix>
+                      <transformationPoint>
+                        <Point x="1.9" y="1.95"/>
+                      </transformationPoint>
+                      <color>
+                        <Color alphaMultiplier="0.69921875"/>
+                      </color>
+                    </DOMSymbolInstance>
+                    <DOMSymbolInstance libraryItemName="FlashAICB/Layer 9/&lt;Path&gt;_1_21" selected="true" blendMode="layer">
+                      <transformationPoint>
+                        <Point x="2.15" y="2.25"/>
+                      </transformationPoint>
+                      <color>
+                        <Color alphaMultiplier="0.69921875"/>
+                      </color>
+                    </DOMSymbolInstance>
+                    <DOMSymbolInstance libraryItemName="FlashAICB/Layer 9/&lt;Path&gt;_24" selected="true" blendMode="layer">
+                      <matrix>
+                        <Matrix tx="0.15" ty="0.2"/>
+                      </matrix>
+                      <transformationPoint>
+                        <Point x="2" y="2"/>
+                      </transformationPoint>
+                      <color>
+                        <Color alphaMultiplier="0.69921875"/>
+                      </color>
+                    </DOMSymbolInstance>
+                  </members>
+                </DOMGroup>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+      </layers>
+    </DOMTimeline>
+  </timeline>
+</DOMSymbolItem>

@@ -1,0 +1,36 @@
+<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="FlashAICB/Layer 9/&lt;Path&gt;_2_31" itemID="54cd1da8-0000052d" lastModified="1422728616">
+  <timeline>
+    <DOMTimeline name="&lt;Path&gt;_2_31">
+      <layers>
+        <DOMLayer name="Layer 1" color="#4FFF4F" current="true" isSelected="true">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMShape selected="true" isDrawingObject="true">
+                  <fills>
+                    <FillStyle index="1">
+                      <SolidColor color="#FFFFFF"/>
+                    </FillStyle>
+                  </fills>
+                  <edges>
+                    <Edge fillStyle1="1" edges="!51 52|45 79!45 79|27 58!27 58|0 60!0 60|15 37!15 37|4 11!4 11|31 18!31 18|52 0!52 0|53 28!53 28|77 42!77 42|51 52"/>
+                    <Edge cubics="!45 79(;45,79 27,58 27,58q45 79 27 58);"/>
+                    <Edge cubics="!27 58(;27,58 0,60 0,60q27 58 0 60);"/>
+                    <Edge cubics="!0 60(;0,60 15,37 15,37q0 60 15 37);"/>
+                    <Edge cubics="!15 37(;15,37 4,11 4,11q15 37 4 11);"/>
+                    <Edge cubics="!4 11(;4,11 31,18 31,18q4 11 31 18);"/>
+                    <Edge cubics="!31 18(;31,18 52,0 52,0q31 18 52 0);"/>
+                    <Edge cubics="!52 0(;52,0 53,28 53,28q52 0 53 28);"/>
+                    <Edge cubics="!53 28(;53,28 77,42 77,42q53 28 77 42);"/>
+                    <Edge cubics="!77 42(;77,42 51,52 51,52q77 42 51 52);"/>
+                    <Edge cubics="!51 52(;51,52 45,79 45,79q51 52 45 79);"/>
+                  </edges>
+                </DOMShape>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+      </layers>
+    </DOMTimeline>
+  </timeline>
+</DOMSymbolItem>

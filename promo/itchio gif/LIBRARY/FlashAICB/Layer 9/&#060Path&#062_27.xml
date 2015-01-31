@@ -1,0 +1,30 @@
+<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="FlashAICB/Layer 9/&lt;Path&gt;_27" itemID="54cd1da8-000004f9" lastModified="1422728616">
+  <timeline>
+    <DOMTimeline name="&lt;Path&gt;_27">
+      <layers>
+        <DOMLayer name="Layer 1" color="#4FFF4F" current="true" isSelected="true">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMShape selected="true" isDrawingObject="true">
+                  <fills>
+                    <FillStyle index="1">
+                      <SolidColor color="#FFFFFF"/>
+                    </FillStyle>
+                  </fills>
+                  <edges>
+                    <Edge fillStyle1="1" edges="!80 37[82 53 71 66!71 66[60 79 43 80!43 80[26 82 14 71!14 71[1 59 0 43!0 43[-1 26 10 14!10 14[21 1 37 0!37 0[53 -1 66 10!66 10[79 20 80 37"/>
+                    <Edge cubics="!80 37(;82,59 65,78 43,80q80 37Q82 53q71 66Q60 79q43 80);"/>
+                    <Edge cubics="!43 80(;21,82 1,65 0,43q43 80Q26 82q14 71Q1 59q0 43);"/>
+                    <Edge cubics="!0 43(;-2,21 15,1 37,0q0 43Q-1 26q10 14Q21 1q37 0);"/>
+                    <Edge cubics="!37 0(;59,-2 78,15 80,37q37 0Q53 -1q66 10Q79 20q80 37);"/>
+                  </edges>
+                </DOMShape>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+      </layers>
+    </DOMTimeline>
+  </timeline>
+</DOMSymbolItem>

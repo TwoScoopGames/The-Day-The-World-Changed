@@ -1,177 +1,204 @@
-[
- {
-  "id": 0,
-  "name": "player",
-  "position": {
-   "x": 100,
-   "y": 100
-  },
-  "size": {
-   "width": 54,
-   "height": 56
-  },
-  "rotation": {
-   "x": 27,
-   "y": 28,
-   "angle": 0,
-   "velocity": 0.001
-  },
-  "animation": {
-   "time": 0,
-   "frame": 0,
-   "loop": true,
-   "speed": 1,
-   "name": "shark-head-f10"
-  },
-  "image": {
-   "sourceX": 0,
-   "sourceY": 0,
-   "sourceWidth": 0,
-   "sourceHeight": 0,
-   "destinationX": -23,
-   "destinationY": -18,
-   "destinationWidth": 100,
-   "destinationHeight": 96
-  },
-  "playerController2d": {
-   "up": "up",
-   "down": "down",
-   "left": "left",
-   "right": "right"
-  },
-  "movement2d": {
-   "up": false,
-   "down": false,
-   "left": false,
-   "right": false,
-   "upAccel": -0.1,
-   "downAccel": 0.1,
-   "leftAccel": -0.1,
-   "rightAccel": 0.1,
-   "upMax": -1,
-   "downMax": 1,
-   "leftMax": -1,
-   "rightMax": 1
-  },
-  "velocity": {
-   "x": 0,
-   "y": 0
-  },
-  "collisions": []
- },
- {
-  "id": 1,
-  "name": "middle",
-  "position": {
-   "x": 200,
-   "y": 100
-  },
-  "size": {
-   "width": 54,
-   "height": 54
-  },
-  "rotation": {
-   "x": 27,
-   "y": 27,
-   "angle": 0,
-   "velocity": 0
-  },
-  "animation": {
-   "time": 0,
-   "frame": 0,
-   "loop": true,
-   "speed": 1,
-   "name": "shark-end"
-  },
-  "image": {
-   "sourceX": 0,
-   "sourceY": 0,
-   "sourceWidth": 0,
-   "sourceHeight": 0,
-   "destinationX": -23,
-   "destinationY": -23,
-   "destinationWidth": 100,
-   "destinationHeight": 100
-  },
-  "follow": {
+{
+  "end":[],
+  "intro1": [],
+  "intro2": [],
+  "sixMonths": [],
+  "go": [],
+  "title": [
+   {
+    "id": 0,
+      "position": {
+      "x": 0,
+      "y": 0
+      },
+    "image": {
+      "name": "titlescreen",
+      "sourceX": 0,
+      "sourceY": 0,
+      "sourceWidth": 1136,
+      "sourceHeight": 640,
+      "destinationX": 0,
+      "destinationY": 0,
+      "destinationWidth": 1136,
+      "destinationHeight": 640
+    }
+   }
+ ],
+ "main": [
+  {
    "id": 0,
-   "distance": 50
+   "name": "player",
+   "position": {
+    "x": 100,
+    "y": 100
+   },
+   "size": {
+    "width": 54,
+    "height": 56
+   },
+   "rotation": {
+    "x": 27,
+    "y": 28,
+    "angle": 0,
+    "velocity": 0.001
+   },
+   "animation": {
+    "time": 0,
+    "frame": 0,
+    "loop": true,
+    "speed": 1,
+    "name": "shark-head-f10"
+   },
+   "image": {
+    "sourceX": 0,
+    "sourceY": 0,
+    "sourceWidth": 0,
+    "sourceHeight": 0,
+    "destinationX": -23,
+    "destinationY": -18,
+    "destinationWidth": 100,
+    "destinationHeight": 96
+   },
+   "playerController2d": {
+    "up": "up",
+    "down": "down",
+    "left": "left",
+    "right": "right"
+   },
+   "movement2d": {
+    "up": false,
+    "down": false,
+    "left": false,
+    "right": false,
+    "upAccel": -0.1,
+    "downAccel": 0.1,
+    "leftAccel": -0.1,
+    "rightAccel": 0.1,
+    "upMax": -1,
+    "downMax": 1,
+    "leftMax": -1,
+    "rightMax": 1
+   },
+   "velocity": {
+    "x": 0,
+    "y": 0
+   },
+   "collisions": []
   },
-  "gibs": [
-   "people-gib1",
-   "people-gib2",
-   "people-gib3",
-   "people-gib4",
-   "people-gib5",
-   "people-gib6"
-  ]
- },
- {
-  "id": 2,
-  "name": "tail",
-  "position": {
-   "x": 300,
-   "y": 100
-  },
-  "size": {
-   "width": 54,
-   "height": 54
-  },
-  "rotation": {
-   "x": 27,
-   "y": 27,
-   "angle": 0,
-   "velocity": 0
-  },
-  "animation": {
-   "time": 0,
-   "frame": 0,
-   "loop": true,
-   "speed": 1,
-   "name": "shark-tail-f9"
-  },
-  "image": {
-   "sourceX": 0,
-   "sourceY": 0,
-   "sourceWidth": 0,
-   "sourceHeight": 0,
-   "destinationX": -23,
-   "destinationY": -23,
-   "destinationWidth": 100,
-   "destinationHeight": 100
-  },
-  "collisions": [],
-  "follow": {
+  {
    "id": 1,
-   "distance": 50
+   "name": "middle",
+   "position": {
+    "x": 200,
+    "y": 100
+   },
+   "size": {
+    "width": 54,
+    "height": 54
+   },
+   "rotation": {
+    "x": 27,
+    "y": 27,
+    "angle": 0,
+    "velocity": 0
+   },
+   "animation": {
+    "time": 0,
+    "frame": 0,
+    "loop": true,
+    "speed": 1,
+    "name": "shark-end"
+   },
+   "image": {
+    "sourceX": 0,
+    "sourceY": 0,
+    "sourceWidth": 0,
+    "sourceHeight": 0,
+    "destinationX": -23,
+    "destinationY": -23,
+    "destinationWidth": 100,
+    "destinationHeight": 100
+   },
+   "follow": {
+    "id": 0,
+    "distance": 50
+   },
+   "gibs": [
+    "people-gib1",
+    "people-gib2",
+    "people-gib3",
+    "people-gib4",
+    "people-gib5",
+    "people-gib6"
+   ]
   },
-  "gibs": [
-   "people-gib1",
-   "people-gib2",
-   "people-gib3",
-   "people-gib4",
-   "people-gib5",
-   "people-gib6"
-  ]
- },
- {
-  "id": 4,
-  "name": "camera",
-  "position": {
-   "x": 0,
-   "y": 0
+  {
+   "id": 2,
+   "name": "tail",
+   "position": {
+    "x": 300,
+    "y": 100
+   },
+   "size": {
+    "width": 54,
+    "height": 54
+   },
+   "rotation": {
+    "x": 27,
+    "y": 27,
+    "angle": 0,
+    "velocity": 0
+   },
+   "animation": {
+    "time": 0,
+    "frame": 0,
+    "loop": true,
+    "speed": 1,
+    "name": "shark-tail-f9"
+   },
+   "image": {
+    "sourceX": 0,
+    "sourceY": 0,
+    "sourceWidth": 0,
+    "sourceHeight": 0,
+    "destinationX": -23,
+    "destinationY": -23,
+    "destinationWidth": 100,
+    "destinationHeight": 100
+   },
+   "collisions": [],
+   "follow": {
+    "id": 1,
+    "distance": 50
+   },
+   "gibs": [
+    "people-gib1",
+    "people-gib2",
+    "people-gib3",
+    "people-gib4",
+    "people-gib5",
+    "people-gib6"
+   ]
   },
-  "size": {
-   "width": 600,
-   "height": 600
-  },
-  "camera": {
-   "x": 0,
-   "y": 0
-  },
-  "follow": {
-   "id": 0,
-   "distance": 100
+  {
+   "id": 4,
+   "name": "camera",
+   "position": {
+    "x": 0,
+    "y": 0
+   },
+   "size": {
+    "width": 600,
+    "height": 600
+   },
+   "camera": {
+    "x": 0,
+    "y": 0
+   },
+   "follow": {
+    "id": 0,
+    "distance": 100
+   }
   }
- }
-]
+ ]
+}

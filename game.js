@@ -35,11 +35,12 @@ function installSystems(systems, ecs, data) {
 	});
 }
 
-var main = makeScene("main");
-main.entities.load(require("./entities"));
+var entities = require("./entities");
+makeScene("main");
 
 function makeScene(name) {
 	var scene = new Splat.Scene();
+	scene.entities.load(entities[name]);
 	var data = {
 		animations: animations,
 		canvas: canvas,
@@ -112,7 +113,6 @@ title.renderer.add(function(entities, context) { // jshint ignore:line
 		scenes.intro1.start(context);
 	}
 });
-fullScreenImage(title, "titlescreen");
 arrows(title);
 
 var intro1 = makeScene("intro1");

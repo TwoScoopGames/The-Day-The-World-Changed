@@ -58,26 +58,6 @@ function makeScene(name) {
 	return scene;
 }
 
-function fullScreenImage(scene, name) {
-	var img = scene.entities.add();
-	img.position = {
-		x: 0,
-		y: 0
-	};
-	img.image = {
-		name: name,
-		sourceX: 0,
-		sourceY: 0,
-		sourceWidth: 1136,
-		sourceHeight: 640,
-		destinationX: 0,
-		destinationY: 0,
-		destinationWidth: 1136,
-		destinationHeight: 640
-	};
-	return img;
-}
-
 function arrows(scene) {
 	var img = scene.entities.add();
 	img.position = {
@@ -116,7 +96,6 @@ title.renderer.add(function(entities, context) { // jshint ignore:line
 arrows(title);
 
 var intro1 = makeScene("intro1");
-fullScreenImage(intro1, "intro-1");
 arrows(intro1);
 
 var words = intro1.entities.add();
@@ -156,7 +135,6 @@ intro1.renderer.add(function(entities, context) { // jshint ignore:line
 });
 
 var sixMonths = makeScene("sixMonths");
-fullScreenImage(sixMonths, "black-screen");
 arrows(sixMonths);
 var words2 = sixMonths.entities.add();
 words2.position = {
@@ -183,7 +161,6 @@ sixMonths.renderer.add(function(entities, context) { // jshint ignore:line
 
 
 var intro2 = makeScene("intro2");
-fullScreenImage(intro2, "intro-2");
 arrows(intro2);
 
 var legs = intro2.entities.add();
@@ -251,7 +228,6 @@ intro2.renderer.add(function(entities, context) { // jshint ignore:line
 });
 
 var go = makeScene("go");
-fullScreenImage(go, "black-screen");
 arrows(go);
 
 var goAnim = go.entities.add();
@@ -287,8 +263,7 @@ go.renderer.add(function(entities, context) { // jshint ignore:line
 	go.lastPressed = isPressed;
 });
 
-var end = makeScene("end");
-fullScreenImage(end, "endscreen");
+makeScene("end");
 
 function percentLoaded() {
 	return (images.loadedImages + sounds.loadedSounds) / (images.totalImages + sounds.totalSounds);

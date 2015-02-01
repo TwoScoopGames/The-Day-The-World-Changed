@@ -1,28 +1,123 @@
 {
-  "end":[],
-  "intro1": [],
-  "intro2": [],
-  "sixMonths": [],
-  "go": [],
-  "title": [
-   {
-    "id": 0,
-      "position": {
-      "x": 0,
-      "y": 0
-      },
-    "image": {
-      "name": "titlescreen",
-      "sourceX": 0,
-      "sourceY": 0,
-      "sourceWidth": 1136,
-      "sourceHeight": 640,
-      "destinationX": 0,
-      "destinationY": 0,
-      "destinationWidth": 1136,
-      "destinationHeight": 640
-    }
+ "title": [
+  {
+   "id": 0,
+   "position": {
+    "x": 0,
+    "y": 0
+   },
+   "image": {
+    "name": "titlescreen",
+    "sourceX": 0,
+    "sourceY": 0,
+    "sourceWidth": 1136,
+    "sourceHeight": 640,
+    "destinationX": 0,
+    "destinationY": 0,
+    "destinationWidth": 1136,
+    "destinationHeight": 640
    }
+  }
+ ],
+ "intro1": [
+  {
+   "id": 0,
+   "position": {
+    "x": 0,
+    "y": 0
+   },
+   "image": {
+    "name": "intro-1",
+    "sourceX": 0,
+    "sourceY": 0,
+    "sourceWidth": 1136,
+    "sourceHeight": 640,
+    "destinationX": 0,
+    "destinationY": 0,
+    "destinationWidth": 1136,
+    "destinationHeight": 640
+   }
+  }
+ ],
+ "sixMonths": [
+  {
+   "id": 0,
+   "position": {
+    "x": 0,
+    "y": 0
+   },
+   "image": {
+    "name": "black-screen",
+    "sourceX": 0,
+    "sourceY": 0,
+    "sourceWidth": 1136,
+    "sourceHeight": 640,
+    "destinationX": 0,
+    "destinationY": 0,
+    "destinationWidth": 1136,
+    "destinationHeight": 640
+   }
+  }
+ ],
+ "intro2": [
+  {
+   "id": 0,
+   "position": {
+    "x": 0,
+    "y": 0
+   },
+   "image": {
+    "name": "intro-2",
+    "sourceX": 0,
+    "sourceY": 0,
+    "sourceWidth": 1136,
+    "sourceHeight": 640,
+    "destinationX": 0,
+    "destinationY": 0,
+    "destinationWidth": 1136,
+    "destinationHeight": 640
+   }
+  }
+ ],
+ "go": [
+  {
+   "id": 0,
+   "position": {
+    "x": 0,
+    "y": 0
+   },
+   "image": {
+    "name": "black-screen",
+    "sourceX": 0,
+    "sourceY": 0,
+    "sourceWidth": 1136,
+    "sourceHeight": 640,
+    "destinationX": 0,
+    "destinationY": 0,
+    "destinationWidth": 1136,
+    "destinationHeight": 640
+   }
+  }
+ ],
+ "end": [
+  {
+   "id": 0,
+   "position": {
+    "x": 0,
+    "y": 0
+   },
+   "image": {
+    "name": "endscreen",
+    "sourceX": 0,
+    "sourceY": 0,
+    "sourceWidth": 1136,
+    "sourceHeight": 640,
+    "destinationX": 0,
+    "destinationY": 0,
+    "destinationWidth": 1136,
+    "destinationHeight": 640
+   }
+  }
  ],
  "main": [
   {

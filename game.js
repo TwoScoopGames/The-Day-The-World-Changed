@@ -68,22 +68,8 @@ title.renderer.add(function(entities, context) { // jshint ignore:line
 });
 
 var intro1 = makeScene("intro1");
-var words = intro1.entities.add();
-words.position = {
-	x: 500,
-	y: 200
-};
-words.timers = {
-	showText: {
-		running: true,
-		time: 0,
-		max: 1000,
-		script: "./lib/add-text-1"
-	}
-};
-words.seq = 0;
-
 intro1.renderer.add(function(entities, context) { // jshint ignore:line
+	var words = entities[2];
 	var isPressed  = input.button("left") || input.button("right");
 	if (words.lastPressed === false && isPressed && words.text !== undefined) {
 		words.text.a = 0;

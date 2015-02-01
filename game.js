@@ -58,33 +58,6 @@ function makeScene(name) {
 	return scene;
 }
 
-function arrows(scene) {
-	var img = scene.entities.add();
-	img.position = {
-		x: 1017,
-		y: 557
-	};
-	img.image = {
-		name: name,
-		sourceX: 0,
-		sourceY: 0,
-		sourceWidth: 100,
-		sourceHeight: 67,
-		destinationX: 0,
-		destinationY: 0,
-		destinationWidth: 100,
-		destinationHeight: 67
-	};
-	img.animation = {
-		"time": 0,
-		"frame": 0,
-		"loop": true,
-		"speed": 0.3,
-		"name": "arrows-right-f2"
-	};
-	return img;
-}
-
 var title = makeScene("title");
 title.renderer.add(function(entities, context) { // jshint ignore:line
 	if (input.button("left") || input.button("right")) {
@@ -93,11 +66,8 @@ title.renderer.add(function(entities, context) { // jshint ignore:line
 		scenes.intro1.start(context);
 	}
 });
-arrows(title);
 
 var intro1 = makeScene("intro1");
-arrows(intro1);
-
 var words = intro1.entities.add();
 words.position = {
 	x: 500,
@@ -135,7 +105,6 @@ intro1.renderer.add(function(entities, context) { // jshint ignore:line
 });
 
 var sixMonths = makeScene("sixMonths");
-arrows(sixMonths);
 var words2 = sixMonths.entities.add();
 words2.position = {
 	x: 300,
@@ -161,8 +130,6 @@ sixMonths.renderer.add(function(entities, context) { // jshint ignore:line
 
 
 var intro2 = makeScene("intro2");
-arrows(intro2);
-
 var legs = intro2.entities.add();
 legs.position = {
 	x: 98,
@@ -228,8 +195,6 @@ intro2.renderer.add(function(entities, context) { // jshint ignore:line
 });
 
 var go = makeScene("go");
-arrows(go);
-
 var goAnim = go.entities.add();
 goAnim.position = {
 	x: 338,

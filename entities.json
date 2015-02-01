@@ -177,6 +177,24 @@
       "speed": 0.3,
       "name": "arrows-right-f2"
     }
+  },
+  {
+    "id": 2,
+    "position": {
+      "x": 98,
+      "y": 214
+    },
+    "image": {
+      "name": "legs",
+      "sourceX": 0,
+      "sourceY": 0,
+      "sourceWidth": 940,
+      "sourceHeight": 426,
+      "destinationX": 0,
+      "destinationY": 0,
+      "destinationWidth": 940,
+      "destinationHeight": 426
+    }
   }
  ],
  "go": [

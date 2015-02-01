@@ -130,22 +130,6 @@ sixMonths.renderer.add(function(entities, context) { // jshint ignore:line
 
 
 var intro2 = makeScene("intro2");
-var legs = intro2.entities.add();
-legs.position = {
-	x: 98,
-	y: 214
-};
-legs.image = {
-	name: "legs",
-	sourceX: 0,
-	sourceY: 0,
-	sourceWidth: 940,
-	sourceHeight: 426,
-	destinationX: 0,
-	destinationY: 0,
-	destinationWidth: 940,
-	destinationHeight: 426
-};
 
 var doctor = intro2.entities.add();
 doctor.position = {

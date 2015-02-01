@@ -144,29 +144,6 @@ intro2.renderer.add(function(entities, context) { // jshint ignore:line
 });
 
 var go = makeScene("go");
-var goAnim = go.entities.add();
-goAnim.position = {
-	x: 338,
-	y: 208
-};
-goAnim.image = {
-	sourceX: 0,
-	sourceY: 0,
-	sourceWidth: 382,
-	sourceHeight: 204,
-	destinationX: 0,
-	destinationY: 0,
-	destinationWidth: 382,
-	destinationHeight: 204
-};
-goAnim.animation = {
-	"time": 0,
-	"frame": 0,
-	"loop": true,
-	"speed": 0.3,
-	"name": "go"
-};
-
 go.renderer.add(function(entities, context) { // jshint ignore:line
 	var isPressed  = input.button("left") || input.button("right");
 	if (go.lastPressed === false && isPressed) {

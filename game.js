@@ -105,20 +105,9 @@ intro1.renderer.add(function(entities, context) { // jshint ignore:line
 });
 
 var sixMonths = makeScene("sixMonths");
-var words2 = sixMonths.entities.add();
-words2.position = {
-	x: 300,
-	y: 300
-};
-words2.timers = {
-	showText: {
-		running: true,
-		time: 0,
-		max: 1000,
-		script: "./lib/add-text-2"
-	}
-};
+
 sixMonths.renderer.add(function(entities, context) { // jshint ignore:line
+	var words2 = entities[2];
 	var isPressed  = input.button("left") || input.button("right");
 	if (words2.lastPressed === false && isPressed && words2.text !== undefined) {
 		scenes.sixMonths.stop();

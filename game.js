@@ -131,41 +131,6 @@ sixMonths.renderer.add(function(entities, context) { // jshint ignore:line
 
 var intro2 = makeScene("intro2");
 
-var doctor = intro2.entities.add();
-doctor.position = {
-	x: 357,
-	y: 0
-};
-doctor.velocity = {
-	x: 0,
-	y: 0.05
-};
-doctor.image = {
-	name: "doctor-intro1",
-	sourceX: 0,
-	sourceY: 0,
-	sourceWidth: 446,
-	sourceHeight: 640,
-	destinationX: 0,
-	destinationY: 0,
-	destinationWidth: 446,
-	destinationHeight: 640
-};
-doctor.timers = {
-	doctor: {
-		running: true,
-		time: 0,
-		max: 3000,
-		script: "./lib/doctor-freak-out"
-	},
-	stop: {
-		running: true,
-		time: 0,
-		max: 6000,
-		script: "./lib/doctor-stop"
-	}
-};
-
 intro2.renderer.add(function(entities, context) { // jshint ignore:line
 	var isPressed  = input.button("left") || input.button("right");
 	if (intro2.lastPressed === false && isPressed) {

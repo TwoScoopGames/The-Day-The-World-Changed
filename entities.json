@@ -195,6 +195,42 @@
       "destinationWidth": 940,
       "destinationHeight": 426
     }
+  },
+  {
+    "id": 3,
+    "position":{
+      "x": 357,
+      "y": 0
+    },
+    "velocity": {
+      "x": 0,
+      "y": 0.05
+    },
+    "image": {
+      "name": "doctor-intro1",
+      "sourceX": 0,
+      "sourceY": 0,
+      "sourceWidth": 446,
+      "sourceHeight": 640,
+      "destinationX": 0,
+      "destinationY": 0,
+      "destinationWidth": 446,
+      "destinationHeight": 640
+    },
+    "timers": {
+      "doctor": {
+        "running": true,
+        "time": 0,
+        "max": 3000,
+        "script": "./lib/doctor-freak-out"
+      },
+      "stop": {
+        "running": true,
+        "time": 0,
+        "max": 6000,
+        "script": "./lib/doctor-stop"
+      }
+    }
   }
  ],
  "go": [

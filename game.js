@@ -63,7 +63,6 @@ makeScene("intro1");
 makeScene("sixMonths");
 makeScene("intro2");
 makeScene("go");
-
 makeScene("end");
 
 function percentLoaded() {

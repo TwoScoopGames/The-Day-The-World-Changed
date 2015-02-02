@@ -7,5 +7,6 @@
  "./lib/doctor-freak-out",
  "./lib/doctor-stop",
  "./lib/intro-advance-words",
+ "./lib/six-months-next-scene",
  "./lib/title-next-scene"
 ]

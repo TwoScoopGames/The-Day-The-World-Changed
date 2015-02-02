@@ -164,19 +164,26 @@
     }
   },
   {
-    "id": 2,
-    "position":{
-      "x": 300,
-      "y": 300
-    },
-    "timers":{
-      "showText": {
-        "running": true,
-        "time": 0,
-        "max": 1000,
-        "script": "./lib/add-text-2"
-      }
+   "id": 2,
+   "position":{
+    "x": 300,
+    "y": 300
+   },
+   "timers":{
+    "showText": {
+     "running": true,
+     "time": 0,
+     "max": 1000,
+     "script": "./lib/add-text-2"
     }
+   },
+   "onKeyPress": {
+    "keys": [
+     "left",
+     "right"
+    ],
+    "script": "./lib/six-months-next-scene"
+   }
   }
  ],
  "intro2": [

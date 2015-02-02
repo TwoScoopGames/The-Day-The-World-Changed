@@ -59,22 +59,8 @@ function makeScene(name) {
 }
 
 var title = makeScene("title");
-
 makeScene("intro1");
-
-var sixMonths = makeScene("sixMonths");
-
-sixMonths.renderer.add(function(entities, context) { // jshint ignore:line
-	var words2 = entities[2];
-	var isPressed  = input.button("left") || input.button("right");
-	if (words2.lastPressed === false && isPressed && words2.text !== undefined) {
-		scenes.sixMonths.stop();
-		sounds.play("shark-birth", true);
-		scenes.intro2.start(context);
-	}
-	words2.lastPressed = isPressed;
-});
-
+makeScene("sixMonths");
 
 var intro2 = makeScene("intro2");
 

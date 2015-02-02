@@ -58,15 +58,17 @@ function makeScene(name) {
 	return scene;
 }
 
-var title = makeScene("title");
-makeScene("intro1");
-makeScene("sixMonths");
-makeScene("intro2");
-makeScene("go");
-makeScene("end");
+var first;
+var sceneList = require("./scenes");
+Object.keys(sceneList).forEach(function(scene){
+	var s = makeScene(scene);
+	if(sceneList[scene].first){
+		first = s;
+	}
+});
 
 function percentLoaded() {
 	return (images.loadedImages + sounds.loadedSounds) / (images.totalImages + sounds.totalSounds);
 }
-var loading = Splat.loadingScene(canvas, percentLoaded, title);
+var loading = Splat.loadingScene(canvas, percentLoaded, first);
 loading.start(context);

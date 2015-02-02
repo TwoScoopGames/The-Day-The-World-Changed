@@ -59,13 +59,6 @@ function makeScene(name) {
 }
 
 var title = makeScene("title");
-title.renderer.add(function(entities, context) { // jshint ignore:line
-	if (input.button("left") || input.button("right")) {
-		scenes.title.stop();
-		sounds.play("crickets", true);
-		scenes.intro1.start(context);
-	}
-});
 
 var intro1 = makeScene("intro1");
 intro1.renderer.add(function(entities, context) { // jshint ignore:line

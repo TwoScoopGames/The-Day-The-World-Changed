@@ -309,6 +309,13 @@
     "destinationY": 0,
     "destinationWidth": 1136,
     "destinationHeight": 640
+   },
+   "onKeyPress": {
+    "keys": [
+     "left",
+     "right"
+    ],
+    "script": "./lib/go-next-scene"
    }
   }, 
   {

@@ -62,17 +62,7 @@ var title = makeScene("title");
 makeScene("intro1");
 makeScene("sixMonths");
 makeScene("intro2");
-
-var go = makeScene("go");
-go.renderer.add(function(entities, context) { // jshint ignore:line
-	var isPressed  = input.button("left") || input.button("right");
-	if (go.lastPressed === false && isPressed) {
-		scenes.go.stop();
-		sounds.play("Wake_-_67_-_Duckbag", true);
-		scenes.main.start(context);
-	}
-	go.lastPressed = isPressed;
-});
+makeScene("go");
 
 makeScene("end");
 

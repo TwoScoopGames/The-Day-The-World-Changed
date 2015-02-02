@@ -36,7 +36,6 @@ function installSystems(systems, ecs, data) {
 }
 
 var entities = require("./entities");
-makeScene("main");
 
 function makeScene(name) {
 	var scene = new Splat.Scene();

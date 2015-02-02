@@ -3,6 +3,7 @@
 		"splatjs:advanceTimers",
 		"./lib/fade-in-text",
 		"splatjs:advanceAnimations",
+		"./lib/handle-key-press",
 		"./lib/control-player",
 		"splatjs:applyMovement2d",
 		"./lib/apply-angular-velocity",

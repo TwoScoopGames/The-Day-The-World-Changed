@@ -16,8 +16,15 @@
     "destinationY": 0,
     "destinationWidth": 1136,
     "destinationHeight": 640
+   },
+   "onKeyPress": {
+    "keys": [
+     "left",
+     "right"
+    ],
+    "script": "./lib/title-next-scene"
    }
-  }, 
+  },
   {
     "id": 1,
     "position": {

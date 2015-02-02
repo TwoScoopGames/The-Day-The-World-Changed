@@ -5,5 +5,6 @@
  "./lib/delete-old-entities",
  "./lib/delete-shake",
  "./lib/doctor-freak-out",
- "./lib/doctor-stop"
+ "./lib/doctor-stop",
+ "./lib/title-next-scene"
 ]

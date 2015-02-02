@@ -6,5 +6,6 @@
  "./lib/delete-shake",
  "./lib/doctor-freak-out",
  "./lib/doctor-stop",
+ "./lib/intro-advance-words",
  "./lib/title-next-scene"
 ]

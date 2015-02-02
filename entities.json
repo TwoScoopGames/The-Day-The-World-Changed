@@ -109,6 +109,13 @@
      "script": "./lib/add-text-1"
     }
    },
+   "onKeyPress": {
+    "keys": [
+     "left",
+     "right"
+    ],
+    "script": "./lib/intro-advance-words"
+   },
    "seq": 0
   }
  ],

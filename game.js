@@ -60,28 +60,7 @@ function makeScene(name) {
 
 var title = makeScene("title");
 
-var intro1 = makeScene("intro1");
-intro1.renderer.add(function(entities, context) { // jshint ignore:line
-	var words = entities[2];
-	var isPressed  = input.button("left") || input.button("right");
-	if (words.lastPressed === false && isPressed && words.text !== undefined) {
-		words.text.a = 0;
-		if (words.seq === 0) {
-			words.text.text = "I'm pregnant.";
-		} else if (words.seq === 1) {
-			words.text.text = "What do we do now?";
-			words.position.x = 200;
-			words.position.y = 410;
-		} else if (words.seq === 2) {
-			scenes.intro1.stop();
-			sounds.stop("crickets");
-			sounds.play("hospital-sounds", true);
-			scenes.sixMonths.start(context);
-		}
-		words.seq++;
-	}
-	words.lastPressed = isPressed;
-});
+makeScene("intro1");
 
 var sixMonths = makeScene("sixMonths");
 

@@ -23,32 +23,34 @@
      "right"
     ],
     "script": "./lib/title-next-scene"
-   }
+   },
+   "name": "bg"
   },
   {
-    "id": 1,
-    "position": {
-      "x": 1017,
-      "y": 557
-    },
-    "image":{
-      "name": "name",
-      "sourceX": 0,
-      "sourceY": 0,
-      "sourceWidth": 100,
-      "sourceHeight": 67,
-      "destinationX": 0,
-      "destinationY": 0,
-      "destinationWidth": 100,
-      "destinationHeight": 67
-    },
-    "animation":{
-      "time": 0,
-      "frame": 0,
-      "loop": true,
-      "speed": 0.3,
-      "name": "arrows-right-f2"
-    }
+   "id": 1,
+   "position": {
+    "x": 1017,
+    "y": 557
+   },
+   "image": {
+    "name": "name",
+    "sourceX": 0,
+    "sourceY": 0,
+    "sourceWidth": 100,
+    "sourceHeight": 67,
+    "destinationX": 0,
+    "destinationY": 0,
+    "destinationWidth": 100,
+    "destinationHeight": 67
+   },
+   "animation": {
+    "time": 0,
+    "frame": 0,
+    "loop": true,
+    "speed": 0.3,
+    "name": "arrows-right-f2"
+   },
+   "name": "arrows"
   }
  ],
  "intro1": [
@@ -68,32 +70,34 @@
     "destinationY": 0,
     "destinationWidth": 1136,
     "destinationHeight": 640
-   }
-  }, 
+   },
+   "name": "bg"
+  },
   {
-    "id": 1,
-    "position": {
-      "x": 1017,
-      "y": 557
-    },
-    "image":{
-      "name": "name",
-      "sourceX": 0,
-      "sourceY": 0,
-      "sourceWidth": 100,
-      "sourceHeight": 67,
-      "destinationX": 0,
-      "destinationY": 0,
-      "destinationWidth": 100,
-      "destinationHeight": 67
-    },
-    "animation":{
-      "time": 0,
-      "frame": 0,
-      "loop": true,
-      "speed": 0.3,
-      "name": "arrows-right-f2"
-    }
+   "id": 1,
+   "position": {
+    "x": 1017,
+    "y": 557
+   },
+   "image": {
+    "name": "name",
+    "sourceX": 0,
+    "sourceY": 0,
+    "sourceWidth": 100,
+    "sourceHeight": 67,
+    "destinationX": 0,
+    "destinationY": 0,
+    "destinationWidth": 100,
+    "destinationHeight": 67
+   },
+   "animation": {
+    "time": 0,
+    "frame": 0,
+    "loop": true,
+    "speed": 0.3,
+    "name": "arrows-right-f2"
+   },
+   "name": "arrows"
   },
   {
    "id": 2,
@@ -116,7 +120,8 @@
     ],
     "script": "./lib/intro-advance-words"
    },
-   "seq": 0
+   "seq": 0,
+   "name": "words"
   }
  ],
  "sixMonths": [
@@ -136,40 +141,42 @@
     "destinationY": 0,
     "destinationWidth": 1136,
     "destinationHeight": 640
-   }
-  }, 
+   },
+   "name": "bg"
+  },
   {
-    "id": 1,
-    "position": {
-      "x": 1017,
-      "y": 557
-    },
-    "image":{
-      "name": "name",
-      "sourceX": 0,
-      "sourceY": 0,
-      "sourceWidth": 100,
-      "sourceHeight": 67,
-      "destinationX": 0,
-      "destinationY": 0,
-      "destinationWidth": 100,
-      "destinationHeight": 67
-    },
-    "animation":{
-      "time": 0,
-      "frame": 0,
-      "loop": true,
-      "speed": 0.3,
-      "name": "arrows-right-f2"
-    }
+   "id": 1,
+   "position": {
+    "x": 1017,
+    "y": 557
+   },
+   "image": {
+    "name": "name",
+    "sourceX": 0,
+    "sourceY": 0,
+    "sourceWidth": 100,
+    "sourceHeight": 67,
+    "destinationX": 0,
+    "destinationY": 0,
+    "destinationWidth": 100,
+    "destinationHeight": 67
+   },
+   "animation": {
+    "time": 0,
+    "frame": 0,
+    "loop": true,
+    "speed": 0.3,
+    "name": "arrows-right-f2"
+   },
+   "name": "arrows"
   },
   {
    "id": 2,
-   "position":{
+   "position": {
     "x": 300,
     "y": 300
    },
-   "timers":{
+   "timers": {
     "showText": {
      "running": true,
      "time": 0,
@@ -183,7 +190,8 @@
      "right"
     ],
     "script": "./lib/six-months-next-scene"
-   }
+   },
+   "name": "words"
   }
  ],
  "intro2": [
@@ -210,86 +218,88 @@
      "right"
     ],
     "script": "./lib/intro2-next-scene"
+   },
+   "name": "bg"
+  },
+  {
+   "id": 1,
+   "position": {
+    "x": 1017,
+    "y": 557
+   },
+   "image": {
+    "name": "name",
+    "sourceX": 0,
+    "sourceY": 0,
+    "sourceWidth": 100,
+    "sourceHeight": 67,
+    "destinationX": 0,
+    "destinationY": 0,
+    "destinationWidth": 100,
+    "destinationHeight": 67
+   },
+   "animation": {
+    "time": 0,
+    "frame": 0,
+    "loop": true,
+    "speed": 0.3,
+    "name": "arrows-right-f2"
+   },
+   "name": "arrows"
+  },
+  {
+   "id": 2,
+   "position": {
+    "x": 98,
+    "y": 214
+   },
+   "image": {
+    "name": "legs",
+    "sourceX": 0,
+    "sourceY": 0,
+    "sourceWidth": 940,
+    "sourceHeight": 426,
+    "destinationX": 0,
+    "destinationY": 0,
+    "destinationWidth": 940,
+    "destinationHeight": 426
    }
-  }, 
-  {
-    "id": 1,
-    "position": {
-      "x": 1017,
-      "y": 557
-    },
-    "image":{
-      "name": "name",
-      "sourceX": 0,
-      "sourceY": 0,
-      "sourceWidth": 100,
-      "sourceHeight": 67,
-      "destinationX": 0,
-      "destinationY": 0,
-      "destinationWidth": 100,
-      "destinationHeight": 67
-    },
-    "animation":{
-      "time": 0,
-      "frame": 0,
-      "loop": true,
-      "speed": 0.3,
-      "name": "arrows-right-f2"
-    }
   },
   {
-    "id": 2,
-    "position": {
-      "x": 98,
-      "y": 214
+   "id": 3,
+   "position": {
+    "x": 357,
+    "y": 0
+   },
+   "velocity": {
+    "x": 0,
+    "y": 0.05
+   },
+   "image": {
+    "name": "doctor-intro1",
+    "sourceX": 0,
+    "sourceY": 0,
+    "sourceWidth": 446,
+    "sourceHeight": 640,
+    "destinationX": 0,
+    "destinationY": 0,
+    "destinationWidth": 446,
+    "destinationHeight": 640
+   },
+   "timers": {
+    "doctor": {
+     "running": true,
+     "time": 0,
+     "max": 3000,
+     "script": "./lib/doctor-freak-out"
     },
-    "image": {
-      "name": "legs",
-      "sourceX": 0,
-      "sourceY": 0,
-      "sourceWidth": 940,
-      "sourceHeight": 426,
-      "destinationX": 0,
-      "destinationY": 0,
-      "destinationWidth": 940,
-      "destinationHeight": 426
+    "stop": {
+     "running": true,
+     "time": 0,
+     "max": 6000,
+     "script": "./lib/doctor-stop"
     }
-  },
-  {
-    "id": 3,
-    "position":{
-      "x": 357,
-      "y": 0
-    },
-    "velocity": {
-      "x": 0,
-      "y": 0.05
-    },
-    "image": {
-      "name": "doctor-intro1",
-      "sourceX": 0,
-      "sourceY": 0,
-      "sourceWidth": 446,
-      "sourceHeight": 640,
-      "destinationX": 0,
-      "destinationY": 0,
-      "destinationWidth": 446,
-      "destinationHeight": 640
-    },
-    "timers": {
-      "doctor": {
-        "running": true,
-        "time": 0,
-        "max": 3000,
-        "script": "./lib/doctor-freak-out"
-      },
-      "stop": {
-        "running": true,
-        "time": 0,
-        "max": 6000,
-        "script": "./lib/doctor-stop"
-      }
-    }
+   }
   }
  ],
  "go": [
@@ -317,31 +327,31 @@
     ],
     "script": "./lib/go-next-scene"
    }
-  }, 
+  },
   {
-    "id": 1,
-    "position": {
-      "x": 1017,
-      "y": 557
-    },
-    "image":{
-      "name": "name",
-      "sourceX": 0,
-      "sourceY": 0,
-      "sourceWidth": 100,
-      "sourceHeight": 67,
-      "destinationX": 0,
-      "destinationY": 0,
-      "destinationWidth": 100,
-      "destinationHeight": 67
-    },
-    "animation":{
-      "time": 0,
-      "frame": 0,
-      "loop": true,
-      "speed": 0.3,
-      "name": "arrows-right-f2"
-    }
+   "id": 1,
+   "position": {
+    "x": 1017,
+    "y": 557
+   },
+   "image": {
+    "name": "name",
+    "sourceX": 0,
+    "sourceY": 0,
+    "sourceWidth": 100,
+    "sourceHeight": 67,
+    "destinationX": 0,
+    "destinationY": 0,
+    "destinationWidth": 100,
+    "destinationHeight": 67
+   },
+   "animation": {
+    "time": 0,
+    "frame": 0,
+    "loop": true,
+    "speed": 0.3,
+    "name": "arrows-right-f2"
+   }
   },
   {
    "id": 2,

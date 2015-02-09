@@ -37,7 +37,7 @@ function installSystems(systems, ecs, data) {
 
 var entities = require("./entities");
 
-function makeScene(name) {
+function makeScene(name, sceneData) {
 	var scene = new Splat.Scene();
 	scene.entities.load(entities[name]);
 	var data = {
@@ -52,16 +52,25 @@ function makeScene(name) {
 		sounds: sounds
 	};
 	scenes[name] = scene;
+
 	installSystems(systems.simulation, scene.simulation, data);
 	installSystems(systems.renderer, scene.renderer, data);
+
+	if (typeof sceneData.onEnter === "string") {
+		scene.onEnter = require(sceneData.onEnter).bind(scene, data);
+	}
+	if (typeof sceneData.onExit === "string") {
+		scene.onExit = require(sceneData.onExit).bind(scene, data);
+	}
+
 	return scene;
 }
 
 var first;
 var sceneList = require("./scenes");
-Object.keys(sceneList).forEach(function(scene){
-	var s = makeScene(scene);
-	if(sceneList[scene].first){
+Object.keys(sceneList).forEach(function(scene) {
+	var s = makeScene(scene, sceneList[scene]);
+	if (sceneList[scene].first) {
 		first = s;
 	}
 });

@@ -1,11 +1,26 @@
 {
 	"title": {
 		"first": true
-		},
-	"intro1": {},
-	"sixMonths": {},
-	"intro2": {},
-	"go": {},
-	"main":{},
+	},
+	"intro1": {
+		"onEnter": "./lib/intro1-enter",
+		"onExit": "./lib/intro1-exit"
+	},
+	"sixMonths": {
+		"onEnter": "./lib/sixMonths-enter",
+		"onExit": "./lib/sixMonths-exit"
+	},
+	"intro2": {
+		"onEnter": "./lib/intro2-enter",
+		"onExit": "./lib/intro2-exit"
+	},
+	"go": {
+		"onEnter": "./lib/go-enter",
+		"onExit": "./lib/go-exit"
+	},
+	"main": {
+		"onEnter": "./lib/main-enter",
+		"onExit": "./lib/main-exit"
+	},
 	"end": {}
 }

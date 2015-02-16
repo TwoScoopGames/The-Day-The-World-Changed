@@ -14,7 +14,6 @@ images.loadFromManifest(require("./images"));
 var sounds = new Splat.SoundLoader();
 sounds.loadFromManifest(require("./sounds"));
 
-var scenes = {};
 var systems = require("./systems");
 
 function loadScript(script) {
@@ -37,6 +36,17 @@ function installSystems(systems, ecs, data) {
 
 var entities = require("./entities");
 
+var scenes = {};
+var currentScene;
+
+function switchScene(name) {
+	if (currentScene !== undefined) {
+		currentScene.stop();
+	}
+	currentScene = scenes[name];
+	currentScene.start(context);
+}
+
 function makeScene(name, sceneData) {
 	var scene = new Splat.Scene();
 	scene.entities.load(entities[name]);
@@ -48,8 +58,8 @@ function makeScene(name, sceneData) {
 		images: images,
 		input: input,
 		require: loadScript,
-		scenes: scenes,
-		sounds: sounds
+		sounds: sounds,
+		switchScene: switchScene
 	};
 	scenes[name] = scene;
 
@@ -79,4 +89,5 @@ function percentLoaded() {
 	return (images.loadedImages + sounds.loadedSounds) / (images.totalImages + sounds.totalSounds);
 }
 var loading = Splat.loadingScene(canvas, percentLoaded, first);
+currentScene = first;
 loading.start(context);

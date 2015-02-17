@@ -17,7 +17,6 @@
 		"./lib/delete-entities"
 	],
 	"renderer": [
-		"splatjs:clearScreen",
 		"splatjs:viewport.moveToCamera",
 		"./lib/tile-background",
 		"./lib/draw-rotated-image",

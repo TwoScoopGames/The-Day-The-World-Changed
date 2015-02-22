@@ -67,10 +67,10 @@ function makeScene(name, sceneData) {
 	installSystems(systems.renderer, scene.renderer, data);
 
 	if (typeof sceneData.onEnter === "string") {
-		scene.onEnter = require(sceneData.onEnter).bind(scene, data);
+		scene.onEnter = loadScript(sceneData.onEnter).bind(scene, data);
 	}
 	if (typeof sceneData.onExit === "string") {
-		scene.onExit = require(sceneData.onExit).bind(scene, data);
+		scene.onExit = loadScript(sceneData.onExit).bind(scene, data);
 	}
 
 	return scene;

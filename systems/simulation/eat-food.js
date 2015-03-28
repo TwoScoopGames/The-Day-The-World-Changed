@@ -1,7 +1,7 @@
 "use strict";
 
-var addSegment = require("./add-segment");
-var getCamera = require("./get-camera");
+var addSegment = require("../../lib/add-segment");
+var getCamera = require("../../lib/get-camera");
 
 function angleToVectors(angle, magnitude) {
 	var x = magnitude * Math.cos(angle);

@@ -1,6 +1,6 @@
 "use strict";
 
-var addSegment = require("./add-segment");
+var addSegment = require("../../lib/add-segment");
 
 module.exports = function(ecs, data) {
 	ecs.addEach(function(entity, elapsed) { // jshint ignore:line

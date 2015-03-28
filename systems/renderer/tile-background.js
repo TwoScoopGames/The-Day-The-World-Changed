@@ -1,6 +1,6 @@
 "use strict";
 
-var getCamera = require("./get-camera");
+var getCamera = require("../../lib/get-camera");
 
 function getScreenTopLeft(camera) {
 	if (camera === undefined) {

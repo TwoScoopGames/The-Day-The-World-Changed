@@ -1,26 +1,26 @@
 {
 	"simulation": [
 		"splatjs:advanceTimers",
-		"./lib/fade-in-text",
+		"./systems/simulation/fade-in-text",
 		"splatjs:advanceAnimations",
-		"./lib/handle-key-press",
-		"./lib/control-player",
+		"./systems/simulation/handle-key-press",
+		"./systems/simulation/control-player",
 		"splatjs:applyMovement2d",
-		"./lib/apply-angular-velocity",
+		"./systems/simulation/apply-angular-velocity",
 		"splatjs:applyVelocity",
 		"splatjs:applyFriction",
-		"./lib/follow-parent",
-		"./lib/shake-screen",
+		"./systems/simulation/follow-parent",
+		"./systems/simulation/shake-screen",
 		"splatjs:constrainToPlayableArea",
 		"splatjs:boxCollider",
-		"./lib/eat-food",
-		"./lib/delete-entities"
+		"./systems/simulation/eat-food",
+		"./systems/simulation/delete-entities"
 	],
 	"renderer": [
 		"splatjs:viewport.moveToCamera",
-		"./lib/tile-background",
-		"./lib/draw-rotated-image",
-		"./lib/draw-text",
+		"./systems/renderer/tile-background",
+		"./systems/renderer/draw-rotated-image",
+		"./systems/renderer/draw-text",
 		"splatjs:viewport.reset"
 	]
 }

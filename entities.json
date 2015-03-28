@@ -22,7 +22,7 @@
      "left",
      "right"
     ],
-    "script": "./lib/title-next-scene"
+    "script": "./scripts/title-next-scene"
    },
    "name": "bg"
   },
@@ -110,7 +110,7 @@
      "running": true,
      "time": 0,
      "max": 1000,
-     "script": "./lib/add-text-1"
+     "script": "./scripts/add-text-1"
     }
    },
    "onKeyPress": {
@@ -118,7 +118,7 @@
      "left",
      "right"
     ],
-    "script": "./lib/intro-advance-words"
+    "script": "./scripts/intro-advance-words"
    },
    "seq": 0,
    "name": "words"
@@ -181,7 +181,7 @@
      "running": true,
      "time": 0,
      "max": 1000,
-     "script": "./lib/add-text-2"
+     "script": "./scripts/add-text-2"
     }
    },
    "onKeyPress": {
@@ -189,7 +189,7 @@
      "left",
      "right"
     ],
-    "script": "./lib/six-months-next-scene"
+    "script": "./scripts/six-months-next-scene"
    },
    "name": "words"
   }
@@ -217,7 +217,7 @@
      "left",
      "right"
     ],
-    "script": "./lib/intro2-next-scene"
+    "script": "./scripts/intro2-next-scene"
    },
    "name": "bg"
   },
@@ -291,13 +291,13 @@
      "running": true,
      "time": 0,
      "max": 3000,
-     "script": "./lib/doctor-freak-out"
+     "script": "./scripts/doctor-freak-out"
     },
     "stop": {
      "running": true,
      "time": 0,
      "max": 6000,
-     "script": "./lib/doctor-stop"
+     "script": "./scripts/doctor-stop"
     }
    }
   }
@@ -325,7 +325,7 @@
      "left",
      "right"
     ],
-    "script": "./lib/go-next-scene"
+    "script": "./scripts/go-next-scene"
    }
   },
   {

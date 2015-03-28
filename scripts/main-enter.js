@@ -1,6 +1,6 @@
 "use strict";
 
-var copyEntityComponents = require("./copy-entity-components");
+var copyEntityComponents = require("../lib/copy-entity-components");
 var prefabs = require("../prefabs");
 
 function createPerson(entities, x, y) {

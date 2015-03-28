@@ -3,24 +3,24 @@
 		"first": true
 	},
 	"intro1": {
-		"onEnter": "./lib/intro1-enter",
-		"onExit": "./lib/intro1-exit"
+		"onEnter": "./scripts/intro1-enter",
+		"onExit": "./scripts/intro1-exit"
 	},
 	"sixMonths": {
-		"onEnter": "./lib/sixMonths-enter",
-		"onExit": "./lib/sixMonths-exit"
+		"onEnter": "./scripts/sixMonths-enter",
+		"onExit": "./scripts/sixMonths-exit"
 	},
 	"intro2": {
-		"onEnter": "./lib/intro2-enter",
-		"onExit": "./lib/intro2-exit"
+		"onEnter": "./scripts/intro2-enter",
+		"onExit": "./scripts/intro2-exit"
 	},
 	"go": {
-		"onEnter": "./lib/go-enter",
-		"onExit": "./lib/go-exit"
+		"onEnter": "./scripts/go-enter",
+		"onExit": "./scripts/go-exit"
 	},
 	"main": {
-		"onEnter": "./lib/main-enter",
-		"onExit": "./lib/main-exit"
+		"onEnter": "./scripts/main-enter",
+		"onExit": "./scripts/main-exit"
 	},
 	"end": {}
 }
